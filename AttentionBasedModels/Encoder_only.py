@@ -135,7 +135,7 @@ class Encoder(nn.Module):
 
     def __init__(self, num_layers, D, H, hidden_mlp_dim, inp_features, out_features, dropout_rate):
         super(Encoder, self).__init__()
-        self.sqrt_D = torch.tensor(math.sqrt(D))
+        self.sqrt_D = torch.tensor(math.sqrt(D), device=device)
         self.num_layers = num_layers
         self.input_projection = nn.Linear(inp_features, D)
         self.output_projection = nn.Linear(D, out_features)

@@ -163,8 +163,8 @@ class CustomDataset(Dataset):
             src = self.sequence[idx:idx + self.input_sequence_length]
             trg = self.sequence[idx + self.input_sequence_length - 1:idx + self.window_size - 1]
 
-            print(f"Source shape: {src.shape}")
-            print(f"Target shape: {trg.shape}")
+            # print(f"Source shape: {src.shape}")
+            # print(f"Target shape: {trg.shape}")
 
             if self.multivariate:
                 trg_y = self.sequence[idx + self.input_sequence_length:idx + self.input_sequence_length + self.target_sequence_length, self.target_feature].unsqueeze(1)
@@ -174,8 +174,8 @@ class CustomDataset(Dataset):
                 print(f"Univariate target shape: {trg_y.shape}")
 
             # Debug output shapes and types
-            print(f"Final shapes - src: {src.shape}, trg: {trg.shape}, trg_y: {trg_y.shape}")
-            print(f"Data types - src: {src.dtype}, trg: {trg.dtype}, trg_y: {trg_y.dtype}")
+            # print(f"Final shapes - src: {src.shape}, trg: {trg.shape}, trg_y: {trg_y.shape}")
+            # print(f"Data types - src: {src.dtype}, trg: {trg.dtype}, trg_y: {trg_y.dtype}")
 
             return src.to(device), trg.to(device), trg_y.to(device)
 

@@ -1,5 +1,6 @@
 import torch
-from torch.nn import nn
+from torch import nn
+from config import device, n_future
 
 
 # the basics of RNN models layer

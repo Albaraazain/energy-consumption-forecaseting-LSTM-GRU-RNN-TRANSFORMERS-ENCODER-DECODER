@@ -120,69 +120,40 @@ def process_missing_and_duplicate_timestamps(filepath, train_size=80, val_size=5
     #val = scaler.fit_transform(val)
     #test = scaler.fit_transform(test)
 
-    train = np.array(train, dtype=np.float32)
-    val = np.array(val, dtype=np.float32)
-    test = np.array(test, dtype=np.float32)
-
-    return train, val, test
+    return np.array(train) , np.array(val) , np.array(test)
 
 
-path = "Datasets/DUQ_hourly.csv"
+path = "Datasets//DUQ_hourly.csv"
 train_set , val_set , test_set = process_missing_and_duplicate_timestamps(filepath = path)
 
 
 class CustomDataset(Dataset):
     def __init__(self, sequence, input_sequence_length, target_sequence_length, multivariate=False, target_feature=None):
-        print(f"\nInitializing CustomDataset:")
-        print(f"Input sequence shape: {sequence.shape}")
-        print(f"Sequence dtype before conversion: {sequence.dtype}")
-
-        # Convert sequence to float32 at initialization
-        try:
-            self.sequence = torch.tensor(sequence, dtype=torch.float32)
-            print(f"Sequence successfully converted to tensor with shape: {self.sequence.shape}")
-            print(f"Tensor dtype: {self.sequence.dtype}")
-        except Exception as e:
-            print(f"Error converting sequence to tensor: {str(e)}")
-            raise
-
+        self.sequence = sequence
         self.input_sequence_length = input_sequence_length
         self.target_sequence_length = target_sequence_length
         self.window_size = input_sequence_length + target_sequence_length
         self.multivariate = multivariate
         self.target_feature = target_feature
 
-        print(f"Dataset initialization complete. Window size: {self.window_size}")
-
     def __len__(self):
         return len(self.sequence) - self.window_size + 1
 
     def __getitem__(self, idx):
-        print(f"\nFetching item at index: {idx}")
-        try:
-            src = self.sequence[idx:idx + self.input_sequence_length]
-            trg = self.sequence[idx + self.input_sequence_length - 1:idx + self.window_size - 1]
+        src = self.sequence[idx:idx + self.input_sequence_length]
+        trg = self.sequence[idx + self.input_sequence_length - 1:idx + self.window_size -1]
 
-            print(f"Source shape: {src.shape}")
-            print(f"Target shape: {trg.shape}")
+        if self.multivariate:
+            trg_y = [obs[self.target_feature] for obs in self.sequence[idx + self.input_sequence_length:idx + self.input_sequence_length + self.target_sequence_length]]
+            trg_y = torch.tensor(trg_y).unsqueeze(1).to(device)  # Adding a dimension for sequence length
+        else:
+            trg_y = self.sequence[idx + self.input_sequence_length:idx + self.input_sequence_length + self.target_sequence_length]
+            trg_y = torch.tensor(trg_y).to(device)  # Adding a dimension for sequence length
 
-            if self.multivariate:
-                trg_y = self.sequence[idx + self.input_sequence_length:idx + self.input_sequence_length + self.target_sequence_length, self.target_feature].unsqueeze(1)
-                print(f"Multivariate target shape: {trg_y.shape}")
-            else:
-                trg_y = self.sequence[idx + self.input_sequence_length:idx + self.input_sequence_length + self.target_sequence_length]
-                print(f"Univariate target shape: {trg_y.shape}")
+        src = torch.tensor(src).to(device)  # Adding a dimension for features
+        trg = torch.tensor(trg).to(device)  # Adding a dimension for features
 
-            # Debug output shapes and types
-            print(f"Final shapes - src: {src.shape}, trg: {trg.shape}, trg_y: {trg_y.shape}")
-            print(f"Data types - src: {src.dtype}, trg: {trg.dtype}, trg_y: {trg_y.dtype}")
-
-            return src.to(device), trg.to(device), trg_y.to(device)
-
-        except Exception as e:
-            print(f"Error in __getitem__ at index {idx}: {str(e)}")
-            raise
-
+        return src, trg, trg_y
     
 
 input_sequence_length = 168

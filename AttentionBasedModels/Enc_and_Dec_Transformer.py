@@ -1,8 +1,10 @@
 import torch
-from torch.nn import nn, Tensor
 import torch.nn.functional as F
 import math
 import numpy as np
+import torch
+from torch import nn, Tensor
+from config import device, n_future
 
 class PositionalEncoder(nn.Module):
 

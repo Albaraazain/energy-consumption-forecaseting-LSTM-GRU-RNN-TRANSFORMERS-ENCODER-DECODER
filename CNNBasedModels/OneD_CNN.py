@@ -1,8 +1,9 @@
 import torch
-from torch.nn import nn
+from torch import nn
+
+print(torch.__version__)
 
 # the basics of 1D-CNN models layer
-
 class CNN_ForecastNet(nn.Module):
     def __init__(self, hidden_size=64, kernel_size=3, padding=1, drop_rate=0.1):
         super(CNN_ForecastNet, self).__init__()

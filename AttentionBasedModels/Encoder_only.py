@@ -1,10 +1,11 @@
 
 import torch
-from torch.nn import nn
 import torch.nn.functional as F
 import math
 import numpy as np
-
+import torch
+from torch import nn
+from config import device, n_future
 
 # 
 

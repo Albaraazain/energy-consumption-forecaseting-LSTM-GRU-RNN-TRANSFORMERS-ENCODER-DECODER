@@ -28,7 +28,7 @@ device = (
 input_sequence_length = 168
 target_sequence_length = 48
 
-path = "Datasets/DUQ_hourly.csv"
+path = "Datasets//DUQ_hourly.csv"
 train_set , val_set , test_set = process_missing_and_duplicate_timestamps(filepath = path)
 
 train_dataset = CustomDataset(train_set, input_sequence_length, target_sequence_length, multivariate=False, target_feature=0)
@@ -43,7 +43,7 @@ val_loader = DataLoader(val_dataset, batch_size=32, shuffle=False , drop_last=Tr
 
 
 model = Simple_RNN(in_dim = 1, hid_dim = 1740, out_dim = 1, num_layers = 1, drop_rate = 0.0009001480178615212).to(device)
-
+model
 
 criterion = nn.MSELoss()
 optimizer = torch.optim.Adam(model.parameters(), lr=0.0012874179807017348)
@@ -57,8 +57,8 @@ validation_loss = []
 for epoch in range(epochs):
     model.train()
     for batch in train_loader:
-        x_batch, _, y_batch = batch  # Unpacking all three values
-        x_batch, y_batch = x_batch.to(device), y_batch.to(device)
+        x_batch, y_batch = batch
+        x_batch, y_batch = x_batch, y_batch
 
         optimizer.zero_grad()
         outputs = model(x_batch)
@@ -69,8 +69,8 @@ for epoch in range(epochs):
     val_losses = []
     with torch.no_grad():
         for batch in test_loader:
-            x_batch, _, y_batch = batch  # Unpacking all three values
-            x_batch, y_batch = x_batch.to(device), y_batch.to(device)
+            x_batch, y_batch = batch
+            x_batch, y_batch = x_batch, y_batch
             outputs = model(x_batch)
             loss = criterion(outputs, y_batch)
             val_losses.append(loss.item())

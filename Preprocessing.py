@@ -158,7 +158,7 @@ class CustomDataset(Dataset):
         return len(self.sequence) - self.window_size + 1
 
     def __getitem__(self, idx):
-        print(f"\nFetching item at index: {idx}")
+        # print(f"\nFetching item at index: {idx}")
         try:
             src = self.sequence[idx:idx + self.input_sequence_length]
             trg = self.sequence[idx + self.input_sequence_length - 1:idx + self.window_size - 1]
@@ -168,10 +168,10 @@ class CustomDataset(Dataset):
 
             if self.multivariate:
                 trg_y = self.sequence[idx + self.input_sequence_length:idx + self.input_sequence_length + self.target_sequence_length, self.target_feature].unsqueeze(1)
-                print(f"Multivariate target shape: {trg_y.shape}")
+                # print(f"Multivariate target shape: {trg_y.shape}")
             else:
                 trg_y = self.sequence[idx + self.input_sequence_length:idx + self.input_sequence_length + self.target_sequence_length]
-                print(f"Univariate target shape: {trg_y.shape}")
+                # print(f"Univariate target shape: {trg_y.shape}")
 
             # Debug output shapes and types
             # print(f"Final shapes - src: {src.shape}, trg: {trg.shape}, trg_y: {trg_y.shape}")

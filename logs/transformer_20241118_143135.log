@@ -1,0 +1,46 @@
+2024-11-18 14:31:35,696 - INFO - Starting training for TRANSFORMER model
+2024-11-18 14:31:35,696 - INFO - Using device: cuda
+2024-11-18 14:31:35,696 - INFO - Configuration: {'input_size': 1, 'dec_seq_len': 48, 'dim_val': 128, 'n_encoder_layers': 4, 'n_decoder_layers': 4, 'n_heads': 8, 'dropout_encoder': 0.2, 'dropout_decoder': 0.2, 'dropout_pos_enc': 0.1, 'dim_feedforward_encoder': 512, 'dim_feedforward_decoder': 512, 'num_predicted_features': 1, 'learning_rate': 0.0001, 'epochs': 100}
+2024-11-18 14:31:35,787 - INFO - Data split - Train: 83347, Val: 17860, Test: 17861
+2024-11-18 14:31:35,805 - INFO - DataLoaders created successfully
+2024-11-18 14:31:35,805 - INFO - Data loaders created successfully
+2024-11-18 14:31:36,642 - INFO - Model created successfully: Transformer
+2024-11-18 14:31:36,642 - INFO - Number of parameters: 1860353
+2024-11-18 14:31:37,303 - INFO - Starting training for transformer
+2024-11-18 14:31:37,304 - INFO - Training on device: cuda
+2024-11-18 14:31:37,310 - ERROR - Training error: 'Transformer' object has no attribute 'device'
+2024-11-18 14:31:37,310 - INFO - Training completed in 0.01s
+2024-11-18 14:31:37,687 - ERROR - Error during training: 'Transformer' object has no attribute 'device'
+2024-11-18 14:31:37,688 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "C:\Projects\GradProject\IoT-Based-Energy-Consumption-Prediction-Using-Transformers\utils\training_utils.py", line 239, in train
+    train_loss = self._train_epoch()
+  File "C:\Projects\GradProject\IoT-Based-Energy-Consumption-Prediction-Using-Transformers\utils\training_utils.py", line 160, in _train_epoch
+    output, target = self._forward_step(batch)
+  File "C:\Projects\GradProject\IoT-Based-Energy-Consumption-Prediction-Using-Transformers\utils\training_utils.py", line 138, in _forward_step
+    tgt_mask = self.model.generate_square_subsequent_mask(tgt.size(1))
+  File "C:\Projects\GradProject\IoT-Based-Energy-Consumption-Prediction-Using-Transformers\models\attention\transformer.py", line 196, in generate_square_subsequent_mask
+    mask = torch.triu(torch.ones(size, size, device=self.device), diagonal=1)
+  File "C:\Users\Pc\.conda\envs\energy_pred\lib\site-packages\torch\nn\modules\module.py", line 1729, in __getattr__
+    raise AttributeError(f"'{type(self).__name__}' object has no attribute '{name}'")
+AttributeError: 'Transformer' object has no attribute 'device'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\GradProject\IoT-Based-Energy-Consumption-Prediction-Using-Transformers\train_models.py", line 151, in train_model
+    trainer.train(
+  File "C:\Projects\GradProject\IoT-Based-Energy-Consumption-Prediction-Using-Transformers\utils\training_utils.py", line 293, in train
+    self.save_results()
+  File "C:\Projects\GradProject\IoT-Based-Energy-Consumption-Prediction-Using-Transformers\utils\training_utils.py", line 371, in save_results
+    self.plot_predictions()
+  File "C:\Projects\GradProject\IoT-Based-Energy-Consumption-Prediction-Using-Transformers\utils\training_utils.py", line 424, in plot_predictions
+    output, target = self._forward_step(batch)
+  File "C:\Projects\GradProject\IoT-Based-Energy-Consumption-Prediction-Using-Transformers\utils\training_utils.py", line 138, in _forward_step
+    tgt_mask = self.model.generate_square_subsequent_mask(tgt.size(1))
+  File "C:\Projects\GradProject\IoT-Based-Energy-Consumption-Prediction-Using-Transformers\models\attention\transformer.py", line 196, in generate_square_subsequent_mask
+    mask = torch.triu(torch.ones(size, size, device=self.device), diagonal=1)
+  File "C:\Users\Pc\.conda\envs\energy_pred\lib\site-packages\torch\nn\modules\module.py", line 1729, in __getattr__
+    raise AttributeError(f"'{type(self).__name__}' object has no attribute '{name}'")
+AttributeError: 'Transformer' object has no attribute 'device'
+

@@ -1,0 +1,41 @@
+cnn:
+  hidden_size: 64
+  kernel_size: 3
+  padding: 1
+  drop_rate: 0.1
+  learning_rate: 0.001
+  save_frequency: 10
+
+encoder:
+  num_layers: 2
+  d_model: 32
+  n_heads: 4
+  hidden_mlp_dim: 64
+  input_features: 1
+  output_features: 1
+  dropout_rate: 0.1
+  learning_rate: 0.001
+  save_frequency: 10
+
+decoder:
+  num_layers: 2
+  d_model: 32
+  n_heads: 4
+  hidden_mlp_dim: 64
+  input_features: 1
+  output_features: 1
+  dropout_rate: 0.1
+  learning_rate: 0.001
+  save_frequency: 10
+
+transformer:
+  input_size: 1
+  dec_seq_len: 48
+  d_model: 32
+  n_heads: 4
+  n_encoder_layers: 2
+  n_decoder_layers: 2
+  dropout_encoder: 0.1
+  dropout_decoder: 0.1
+  learning_rate: 0.001
+  save_frequency: 10

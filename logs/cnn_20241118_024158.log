@@ -1,0 +1,1370 @@
+2024-11-18 02:41:58,439 - INFO - Starting training for cnn
+2024-11-18 02:41:58,439 - INFO - Training on device: cuda
+2024-11-18 02:41:58,555 - INFO - Training Batch 0: Loss = 4.563621
+2024-11-18 02:41:58,895 - INFO - Training Batch 100: Loss = 2.068135
+2024-11-18 02:41:59,254 - INFO - Training Batch 200: Loss = 1.333236
+2024-11-18 02:41:59,718 - INFO - Training Batch 300: Loss = 1.327933
+2024-11-18 02:42:00,060 - INFO - Training Batch 400: Loss = 1.124995
+2024-11-18 02:42:00,393 - INFO - Training Batch 500: Loss = 0.977320
+2024-11-18 02:42:00,734 - INFO - Training Batch 600: Loss = 0.849453
+2024-11-18 02:42:01,088 - INFO - Training Batch 700: Loss = 1.205488
+2024-11-18 02:42:01,433 - INFO - Training Batch 800: Loss = 0.912361
+2024-11-18 02:42:01,767 - INFO - Training Batch 900: Loss = 0.899917
+2024-11-18 02:42:02,115 - INFO - Training Batch 1000: Loss = 0.789985
+2024-11-18 02:42:02,452 - INFO - Training Batch 1100: Loss = 0.770117
+2024-11-18 02:42:02,802 - INFO - Training Batch 1200: Loss = 0.946993
+2024-11-18 02:42:03,128 - INFO - Training Batch 1300: Loss = 0.781670
+2024-11-18 02:42:03,483 - INFO - Training Batch 1400: Loss = 0.629499
+2024-11-18 02:42:03,806 - INFO - Training Batch 1500: Loss = 0.757576
+2024-11-18 02:42:04,153 - INFO - Training Batch 1600: Loss = 0.792309
+2024-11-18 02:42:04,482 - INFO - Training Batch 1700: Loss = 0.633390
+2024-11-18 02:42:04,835 - INFO - Training Batch 1800: Loss = 0.676176
+2024-11-18 02:42:05,175 - INFO - Training Batch 1900: Loss = 0.527612
+2024-11-18 02:42:05,502 - INFO - Training Batch 2000: Loss = 0.651992
+2024-11-18 02:42:05,824 - INFO - Training Batch 2100: Loss = 0.578802
+2024-11-18 02:42:06,163 - INFO - Training Batch 2200: Loss = 0.555306
+2024-11-18 02:42:06,512 - INFO - Training Batch 2300: Loss = 0.555776
+2024-11-18 02:42:06,855 - INFO - Training Batch 2400: Loss = 0.559112
+2024-11-18 02:42:07,181 - INFO - Training Batch 2500: Loss = 0.534434
+2024-11-18 02:42:07,508 - INFO - Training Batch 2600: Loss = 0.672389
+2024-11-18 02:42:07,833 - INFO - Training Batch 2700: Loss = 0.507445
+2024-11-18 02:42:08,281 - INFO - Training Batch 2800: Loss = 0.509379
+2024-11-18 02:42:08,604 - INFO - Training Batch 2900: Loss = 0.464273
+2024-11-18 02:42:09,242 - INFO - Epoch 1/100
+2024-11-18 02:42:09,242 - INFO - Train Loss: 0.887891
+2024-11-18 02:42:09,242 - INFO - Validation Loss: 0.208658
+2024-11-18 02:42:09,279 - INFO - New best model saved with validation loss: 0.208658
+2024-11-18 02:42:09,287 - INFO - Training Batch 0: Loss = 0.439683
+2024-11-18 02:42:09,605 - INFO - Training Batch 100: Loss = 0.419967
+2024-11-18 02:42:09,962 - INFO - Training Batch 200: Loss = 0.453325
+2024-11-18 02:42:10,400 - INFO - Training Batch 300: Loss = 0.507583
+2024-11-18 02:42:10,741 - INFO - Training Batch 400: Loss = 0.556780
+2024-11-18 02:42:11,066 - INFO - Training Batch 500: Loss = 0.414252
+2024-11-18 02:42:11,402 - INFO - Training Batch 600: Loss = 0.416085
+2024-11-18 02:42:11,717 - INFO - Training Batch 700: Loss = 0.343477
+2024-11-18 02:42:12,042 - INFO - Training Batch 800: Loss = 0.398488
+2024-11-18 02:42:12,382 - INFO - Training Batch 900: Loss = 0.399128
+2024-11-18 02:42:12,718 - INFO - Training Batch 1000: Loss = 0.416555
+2024-11-18 02:42:13,054 - INFO - Training Batch 1100: Loss = 0.632064
+2024-11-18 02:42:13,392 - INFO - Training Batch 1200: Loss = 0.406716
+2024-11-18 02:42:13,735 - INFO - Training Batch 1300: Loss = 0.392394
+2024-11-18 02:42:14,081 - INFO - Training Batch 1400: Loss = 0.403159
+2024-11-18 02:42:14,393 - INFO - Training Batch 1500: Loss = 0.323593
+2024-11-18 02:42:14,724 - INFO - Training Batch 1600: Loss = 0.295572
+2024-11-18 02:42:15,079 - INFO - Training Batch 1700: Loss = 0.253357
+2024-11-18 02:42:15,419 - INFO - Training Batch 1800: Loss = 0.446150
+2024-11-18 02:42:15,775 - INFO - Training Batch 1900: Loss = 0.345494
+2024-11-18 02:42:16,109 - INFO - Training Batch 2000: Loss = 0.327959
+2024-11-18 02:42:16,443 - INFO - Training Batch 2100: Loss = 0.266482
+2024-11-18 02:42:16,786 - INFO - Training Batch 2200: Loss = 0.273976
+2024-11-18 02:42:17,121 - INFO - Training Batch 2300: Loss = 0.322421
+2024-11-18 02:42:17,477 - INFO - Training Batch 2400: Loss = 0.291619
+2024-11-18 02:42:17,816 - INFO - Training Batch 2500: Loss = 0.318681
+2024-11-18 02:42:18,165 - INFO - Training Batch 2600: Loss = 0.321317
+2024-11-18 02:42:18,507 - INFO - Training Batch 2700: Loss = 0.431730
+2024-11-18 02:42:18,828 - INFO - Training Batch 2800: Loss = 0.295350
+2024-11-18 02:42:19,155 - INFO - Training Batch 2900: Loss = 0.306372
+2024-11-18 02:42:19,800 - INFO - Epoch 2/100
+2024-11-18 02:42:19,800 - INFO - Train Loss: 0.380122
+2024-11-18 02:42:19,800 - INFO - Validation Loss: 0.167614
+2024-11-18 02:42:19,825 - INFO - New best model saved with validation loss: 0.167614
+2024-11-18 02:42:19,832 - INFO - Training Batch 0: Loss = 0.265660
+2024-11-18 02:42:20,247 - INFO - Training Batch 100: Loss = 0.310231
+2024-11-18 02:42:20,650 - INFO - Training Batch 200: Loss = 0.260867
+2024-11-18 02:42:21,082 - INFO - Training Batch 300: Loss = 0.321147
+2024-11-18 02:42:21,525 - INFO - Training Batch 400: Loss = 0.322876
+2024-11-18 02:42:21,969 - INFO - Training Batch 500: Loss = 0.373145
+2024-11-18 02:42:22,382 - INFO - Training Batch 600: Loss = 0.262164
+2024-11-18 02:42:22,724 - INFO - Training Batch 700: Loss = 0.247044
+2024-11-18 02:42:23,051 - INFO - Training Batch 800: Loss = 0.253568
+2024-11-18 02:42:23,376 - INFO - Training Batch 900: Loss = 0.272624
+2024-11-18 02:42:23,711 - INFO - Training Batch 1000: Loss = 0.231743
+2024-11-18 02:42:24,060 - INFO - Training Batch 1100: Loss = 0.308855
+2024-11-18 02:42:24,407 - INFO - Training Batch 1200: Loss = 0.290288
+2024-11-18 02:42:24,754 - INFO - Training Batch 1300: Loss = 0.249307
+2024-11-18 02:42:25,091 - INFO - Training Batch 1400: Loss = 0.274348
+2024-11-18 02:42:25,423 - INFO - Training Batch 1500: Loss = 0.250408
+2024-11-18 02:42:25,848 - INFO - Training Batch 1600: Loss = 0.275186
+2024-11-18 02:42:26,294 - INFO - Training Batch 1700: Loss = 0.193213
+2024-11-18 02:42:26,746 - INFO - Training Batch 1800: Loss = 0.228890
+2024-11-18 02:42:27,170 - INFO - Training Batch 1900: Loss = 0.265139
+2024-11-18 02:42:27,507 - INFO - Training Batch 2000: Loss = 0.239340
+2024-11-18 02:42:27,838 - INFO - Training Batch 2100: Loss = 0.224539
+2024-11-18 02:42:28,172 - INFO - Training Batch 2200: Loss = 0.248845
+2024-11-18 02:42:28,524 - INFO - Training Batch 2300: Loss = 0.261095
+2024-11-18 02:42:28,962 - INFO - Training Batch 2400: Loss = 0.231708
+2024-11-18 02:42:29,405 - INFO - Training Batch 2500: Loss = 0.206772
+2024-11-18 02:42:29,776 - INFO - Training Batch 2600: Loss = 0.235171
+2024-11-18 02:42:30,108 - INFO - Training Batch 2700: Loss = 0.209097
+2024-11-18 02:42:30,458 - INFO - Training Batch 2800: Loss = 0.319460
+2024-11-18 02:42:30,802 - INFO - Training Batch 2900: Loss = 0.284872
+2024-11-18 02:42:31,484 - INFO - Epoch 3/100
+2024-11-18 02:42:31,484 - INFO - Train Loss: 0.261609
+2024-11-18 02:42:31,484 - INFO - Validation Loss: 0.148803
+2024-11-18 02:42:31,501 - INFO - New best model saved with validation loss: 0.148803
+2024-11-18 02:42:31,507 - INFO - Training Batch 0: Loss = 0.189573
+2024-11-18 02:42:31,909 - INFO - Training Batch 100: Loss = 0.220845
+2024-11-18 02:42:32,236 - INFO - Training Batch 200: Loss = 0.356512
+2024-11-18 02:42:32,585 - INFO - Training Batch 300: Loss = 0.236897
+2024-11-18 02:42:32,928 - INFO - Training Batch 400: Loss = 0.246322
+2024-11-18 02:42:33,277 - INFO - Training Batch 500: Loss = 0.278210
+2024-11-18 02:42:33,611 - INFO - Training Batch 600: Loss = 0.255078
+2024-11-18 02:42:33,937 - INFO - Training Batch 700: Loss = 0.204281
+2024-11-18 02:42:34,250 - INFO - Training Batch 800: Loss = 0.207033
+2024-11-18 02:42:34,584 - INFO - Training Batch 900: Loss = 0.214148
+2024-11-18 02:42:34,922 - INFO - Training Batch 1000: Loss = 0.241502
+2024-11-18 02:42:35,284 - INFO - Training Batch 1100: Loss = 0.256590
+2024-11-18 02:42:35,646 - INFO - Training Batch 1200: Loss = 0.155808
+2024-11-18 02:42:35,998 - INFO - Training Batch 1300: Loss = 0.212462
+2024-11-18 02:42:36,359 - INFO - Training Batch 1400: Loss = 0.223480
+2024-11-18 02:42:36,695 - INFO - Training Batch 1500: Loss = 0.196047
+2024-11-18 02:42:37,097 - INFO - Training Batch 1600: Loss = 0.150362
+2024-11-18 02:42:37,452 - INFO - Training Batch 1700: Loss = 0.214225
+2024-11-18 02:42:37,806 - INFO - Training Batch 1800: Loss = 0.185730
+2024-11-18 02:42:38,160 - INFO - Training Batch 1900: Loss = 0.162986
+2024-11-18 02:42:38,502 - INFO - Training Batch 2000: Loss = 0.203647
+2024-11-18 02:42:38,834 - INFO - Training Batch 2100: Loss = 0.215216
+2024-11-18 02:42:39,176 - INFO - Training Batch 2200: Loss = 0.180855
+2024-11-18 02:42:39,534 - INFO - Training Batch 2300: Loss = 0.169591
+2024-11-18 02:42:39,886 - INFO - Training Batch 2400: Loss = 0.231732
+2024-11-18 02:42:40,219 - INFO - Training Batch 2500: Loss = 0.238914
+2024-11-18 02:42:40,554 - INFO - Training Batch 2600: Loss = 0.175120
+2024-11-18 02:42:40,899 - INFO - Training Batch 2700: Loss = 0.157076
+2024-11-18 02:42:41,232 - INFO - Training Batch 2800: Loss = 0.201117
+2024-11-18 02:42:41,564 - INFO - Training Batch 2900: Loss = 0.253430
+2024-11-18 02:42:42,216 - INFO - Epoch 4/100
+2024-11-18 02:42:42,217 - INFO - Train Loss: 0.213933
+2024-11-18 02:42:42,217 - INFO - Validation Loss: 0.139864
+2024-11-18 02:42:42,235 - INFO - New best model saved with validation loss: 0.139864
+2024-11-18 02:42:42,243 - INFO - Training Batch 0: Loss = 0.199074
+2024-11-18 02:42:42,629 - INFO - Training Batch 100: Loss = 0.213588
+2024-11-18 02:42:42,962 - INFO - Training Batch 200: Loss = 0.252088
+2024-11-18 02:42:43,288 - INFO - Training Batch 300: Loss = 0.137170
+2024-11-18 02:42:43,627 - INFO - Training Batch 400: Loss = 0.174039
+2024-11-18 02:42:43,971 - INFO - Training Batch 500: Loss = 0.196623
+2024-11-18 02:42:44,305 - INFO - Training Batch 600: Loss = 0.207071
+2024-11-18 02:42:44,649 - INFO - Training Batch 700: Loss = 0.228335
+2024-11-18 02:42:44,972 - INFO - Training Batch 800: Loss = 0.229720
+2024-11-18 02:42:45,323 - INFO - Training Batch 900: Loss = 0.167611
+2024-11-18 02:42:45,662 - INFO - Training Batch 1000: Loss = 0.176830
+2024-11-18 02:42:46,020 - INFO - Training Batch 1100: Loss = 0.133139
+2024-11-18 02:42:46,355 - INFO - Training Batch 1200: Loss = 0.162664
+2024-11-18 02:42:46,687 - INFO - Training Batch 1300: Loss = 0.204773
+2024-11-18 02:42:47,012 - INFO - Training Batch 1400: Loss = 0.198224
+2024-11-18 02:42:47,350 - INFO - Training Batch 1500: Loss = 0.247215
+2024-11-18 02:42:47,684 - INFO - Training Batch 1600: Loss = 0.170359
+2024-11-18 02:42:48,033 - INFO - Training Batch 1700: Loss = 0.204879
+2024-11-18 02:42:48,382 - INFO - Training Batch 1800: Loss = 0.133622
+2024-11-18 02:42:48,712 - INFO - Training Batch 1900: Loss = 0.152582
+2024-11-18 02:42:49,055 - INFO - Training Batch 2000: Loss = 0.189022
+2024-11-18 02:42:49,403 - INFO - Training Batch 2100: Loss = 0.291837
+2024-11-18 02:42:49,754 - INFO - Training Batch 2200: Loss = 0.169333
+2024-11-18 02:42:50,104 - INFO - Training Batch 2300: Loss = 0.135004
+2024-11-18 02:42:50,450 - INFO - Training Batch 2400: Loss = 0.239288
+2024-11-18 02:42:50,789 - INFO - Training Batch 2500: Loss = 0.130431
+2024-11-18 02:42:51,124 - INFO - Training Batch 2600: Loss = 0.143397
+2024-11-18 02:42:51,464 - INFO - Training Batch 2700: Loss = 0.171683
+2024-11-18 02:42:51,786 - INFO - Training Batch 2800: Loss = 0.150163
+2024-11-18 02:42:52,114 - INFO - Training Batch 2900: Loss = 0.206851
+2024-11-18 02:42:52,764 - INFO - Epoch 5/100
+2024-11-18 02:42:52,764 - INFO - Train Loss: 0.188923
+2024-11-18 02:42:52,764 - INFO - Validation Loss: 0.133280
+2024-11-18 02:42:52,782 - INFO - New best model saved with validation loss: 0.133280
+2024-11-18 02:42:52,789 - INFO - Training Batch 0: Loss = 0.169619
+2024-11-18 02:42:53,163 - INFO - Training Batch 100: Loss = 0.251744
+2024-11-18 02:42:53,513 - INFO - Training Batch 200: Loss = 0.154100
+2024-11-18 02:42:53,856 - INFO - Training Batch 300: Loss = 0.231971
+2024-11-18 02:42:54,197 - INFO - Training Batch 400: Loss = 0.181642
+2024-11-18 02:42:54,543 - INFO - Training Batch 500: Loss = 0.213596
+2024-11-18 02:42:54,892 - INFO - Training Batch 600: Loss = 0.179451
+2024-11-18 02:42:55,241 - INFO - Training Batch 700: Loss = 0.152417
+2024-11-18 02:42:55,577 - INFO - Training Batch 800: Loss = 0.141947
+2024-11-18 02:42:55,921 - INFO - Training Batch 900: Loss = 0.188704
+2024-11-18 02:42:56,245 - INFO - Training Batch 1000: Loss = 0.145004
+2024-11-18 02:42:56,595 - INFO - Training Batch 1100: Loss = 0.212040
+2024-11-18 02:42:56,943 - INFO - Training Batch 1200: Loss = 0.125306
+2024-11-18 02:42:57,287 - INFO - Training Batch 1300: Loss = 0.165723
+2024-11-18 02:42:57,627 - INFO - Training Batch 1400: Loss = 0.196620
+2024-11-18 02:42:57,960 - INFO - Training Batch 1500: Loss = 0.179191
+2024-11-18 02:42:58,304 - INFO - Training Batch 1600: Loss = 0.185476
+2024-11-18 02:42:58,632 - INFO - Training Batch 1700: Loss = 0.180666
+2024-11-18 02:42:58,963 - INFO - Training Batch 1800: Loss = 0.228189
+2024-11-18 02:42:59,312 - INFO - Training Batch 1900: Loss = 0.161655
+2024-11-18 02:42:59,667 - INFO - Training Batch 2000: Loss = 0.182084
+2024-11-18 02:43:00,022 - INFO - Training Batch 2100: Loss = 0.159624
+2024-11-18 02:43:00,369 - INFO - Training Batch 2200: Loss = 0.139382
+2024-11-18 02:43:00,747 - INFO - Training Batch 2300: Loss = 0.148407
+2024-11-18 02:43:01,087 - INFO - Training Batch 2400: Loss = 0.172588
+2024-11-18 02:43:01,442 - INFO - Training Batch 2500: Loss = 0.239780
+2024-11-18 02:43:01,788 - INFO - Training Batch 2600: Loss = 0.142931
+2024-11-18 02:43:02,127 - INFO - Training Batch 2700: Loss = 0.198768
+2024-11-18 02:43:02,467 - INFO - Training Batch 2800: Loss = 0.206728
+2024-11-18 02:43:02,799 - INFO - Training Batch 2900: Loss = 0.187873
+2024-11-18 02:43:03,446 - INFO - Epoch 6/100
+2024-11-18 02:43:03,448 - INFO - Train Loss: 0.173615
+2024-11-18 02:43:03,448 - INFO - Validation Loss: 0.128876
+2024-11-18 02:43:03,465 - INFO - New best model saved with validation loss: 0.128876
+2024-11-18 02:43:03,470 - INFO - Training Batch 0: Loss = 0.143158
+2024-11-18 02:43:03,828 - INFO - Training Batch 100: Loss = 0.231065
+2024-11-18 02:43:04,175 - INFO - Training Batch 200: Loss = 0.270858
+2024-11-18 02:43:04,505 - INFO - Training Batch 300: Loss = 0.197908
+2024-11-18 02:43:04,850 - INFO - Training Batch 400: Loss = 0.197217
+2024-11-18 02:43:05,198 - INFO - Training Batch 500: Loss = 0.171044
+2024-11-18 02:43:05,546 - INFO - Training Batch 600: Loss = 0.153305
+2024-11-18 02:43:05,904 - INFO - Training Batch 700: Loss = 0.139960
+2024-11-18 02:43:06,250 - INFO - Training Batch 800: Loss = 0.120941
+2024-11-18 02:43:06,592 - INFO - Training Batch 900: Loss = 0.134445
+2024-11-18 02:43:06,948 - INFO - Training Batch 1000: Loss = 0.101883
+2024-11-18 02:43:07,284 - INFO - Training Batch 1100: Loss = 0.204162
+2024-11-18 02:43:07,632 - INFO - Training Batch 1200: Loss = 0.228911
+2024-11-18 02:43:07,990 - INFO - Training Batch 1300: Loss = 0.140415
+2024-11-18 02:43:08,336 - INFO - Training Batch 1400: Loss = 0.153242
+2024-11-18 02:43:08,667 - INFO - Training Batch 1500: Loss = 0.107173
+2024-11-18 02:43:09,008 - INFO - Training Batch 1600: Loss = 0.124149
+2024-11-18 02:43:09,356 - INFO - Training Batch 1700: Loss = 0.117497
+2024-11-18 02:43:09,700 - INFO - Training Batch 1800: Loss = 0.201626
+2024-11-18 02:43:10,040 - INFO - Training Batch 1900: Loss = 0.259839
+2024-11-18 02:43:10,388 - INFO - Training Batch 2000: Loss = 0.107139
+2024-11-18 02:43:10,730 - INFO - Training Batch 2100: Loss = 0.101410
+2024-11-18 02:43:11,074 - INFO - Training Batch 2200: Loss = 0.160719
+2024-11-18 02:43:11,410 - INFO - Training Batch 2300: Loss = 0.215532
+2024-11-18 02:43:11,733 - INFO - Training Batch 2400: Loss = 0.121866
+2024-11-18 02:43:12,065 - INFO - Training Batch 2500: Loss = 0.183575
+2024-11-18 02:43:12,422 - INFO - Training Batch 2600: Loss = 0.150364
+2024-11-18 02:43:12,752 - INFO - Training Batch 2700: Loss = 0.155274
+2024-11-18 02:43:13,099 - INFO - Training Batch 2800: Loss = 0.132862
+2024-11-18 02:43:13,426 - INFO - Training Batch 2900: Loss = 0.146791
+2024-11-18 02:43:14,058 - INFO - Epoch 7/100
+2024-11-18 02:43:14,058 - INFO - Train Loss: 0.163130
+2024-11-18 02:43:14,058 - INFO - Validation Loss: 0.125104
+2024-11-18 02:43:14,076 - INFO - New best model saved with validation loss: 0.125104
+2024-11-18 02:43:14,081 - INFO - Training Batch 0: Loss = 0.188761
+2024-11-18 02:43:14,431 - INFO - Training Batch 100: Loss = 0.189660
+2024-11-18 02:43:14,763 - INFO - Training Batch 200: Loss = 0.149816
+2024-11-18 02:43:15,099 - INFO - Training Batch 300: Loss = 0.142893
+2024-11-18 02:43:15,433 - INFO - Training Batch 400: Loss = 0.200479
+2024-11-18 02:43:15,773 - INFO - Training Batch 500: Loss = 0.187443
+2024-11-18 02:43:16,110 - INFO - Training Batch 600: Loss = 0.094661
+2024-11-18 02:43:16,431 - INFO - Training Batch 700: Loss = 0.123137
+2024-11-18 02:43:16,781 - INFO - Training Batch 800: Loss = 0.111094
+2024-11-18 02:43:17,118 - INFO - Training Batch 900: Loss = 0.154225
+2024-11-18 02:43:17,458 - INFO - Training Batch 1000: Loss = 0.157590
+2024-11-18 02:43:17,782 - INFO - Training Batch 1100: Loss = 0.140178
+2024-11-18 02:43:18,103 - INFO - Training Batch 1200: Loss = 0.110508
+2024-11-18 02:43:18,429 - INFO - Training Batch 1300: Loss = 0.210860
+2024-11-18 02:43:18,763 - INFO - Training Batch 1400: Loss = 0.150583
+2024-11-18 02:43:19,112 - INFO - Training Batch 1500: Loss = 0.147027
+2024-11-18 02:43:19,454 - INFO - Training Batch 1600: Loss = 0.190192
+2024-11-18 02:43:19,785 - INFO - Training Batch 1700: Loss = 0.146078
+2024-11-18 02:43:20,118 - INFO - Training Batch 1800: Loss = 0.162150
+2024-11-18 02:43:20,442 - INFO - Training Batch 1900: Loss = 0.115901
+2024-11-18 02:43:20,760 - INFO - Training Batch 2000: Loss = 0.163311
+2024-11-18 02:43:21,103 - INFO - Training Batch 2100: Loss = 0.187187
+2024-11-18 02:43:21,447 - INFO - Training Batch 2200: Loss = 0.120908
+2024-11-18 02:43:21,790 - INFO - Training Batch 2300: Loss = 0.182092
+2024-11-18 02:43:22,127 - INFO - Training Batch 2400: Loss = 0.128270
+2024-11-18 02:43:22,462 - INFO - Training Batch 2500: Loss = 0.207258
+2024-11-18 02:43:22,796 - INFO - Training Batch 2600: Loss = 0.140018
+2024-11-18 02:43:23,129 - INFO - Training Batch 2700: Loss = 0.149001
+2024-11-18 02:43:23,471 - INFO - Training Batch 2800: Loss = 0.152913
+2024-11-18 02:43:23,825 - INFO - Training Batch 2900: Loss = 0.106712
+2024-11-18 02:43:24,466 - INFO - Epoch 8/100
+2024-11-18 02:43:24,466 - INFO - Train Loss: 0.155123
+2024-11-18 02:43:24,466 - INFO - Validation Loss: 0.126982
+2024-11-18 02:43:24,487 - INFO - Training Batch 0: Loss = 0.088397
+2024-11-18 02:43:24,917 - INFO - Training Batch 100: Loss = 0.128639
+2024-11-18 02:43:25,311 - INFO - Training Batch 200: Loss = 0.090348
+2024-11-18 02:43:25,650 - INFO - Training Batch 300: Loss = 0.108796
+2024-11-18 02:43:25,984 - INFO - Training Batch 400: Loss = 0.154626
+2024-11-18 02:43:26,323 - INFO - Training Batch 500: Loss = 0.136343
+2024-11-18 02:43:26,666 - INFO - Training Batch 600: Loss = 0.201440
+2024-11-18 02:43:26,996 - INFO - Training Batch 700: Loss = 0.120627
+2024-11-18 02:43:27,337 - INFO - Training Batch 800: Loss = 0.140455
+2024-11-18 02:43:27,681 - INFO - Training Batch 900: Loss = 0.113688
+2024-11-18 02:43:28,022 - INFO - Training Batch 1000: Loss = 0.186729
+2024-11-18 02:43:28,350 - INFO - Training Batch 1100: Loss = 0.122574
+2024-11-18 02:43:28,697 - INFO - Training Batch 1200: Loss = 0.151007
+2024-11-18 02:43:29,031 - INFO - Training Batch 1300: Loss = 0.187231
+2024-11-18 02:43:29,368 - INFO - Training Batch 1400: Loss = 0.155492
+2024-11-18 02:43:29,704 - INFO - Training Batch 1500: Loss = 0.163587
+2024-11-18 02:43:30,055 - INFO - Training Batch 1600: Loss = 0.152200
+2024-11-18 02:43:30,406 - INFO - Training Batch 1700: Loss = 0.090516
+2024-11-18 02:43:30,748 - INFO - Training Batch 1800: Loss = 0.118454
+2024-11-18 02:43:31,131 - INFO - Training Batch 1900: Loss = 0.122067
+2024-11-18 02:43:31,509 - INFO - Training Batch 2000: Loss = 0.134762
+2024-11-18 02:43:31,876 - INFO - Training Batch 2100: Loss = 0.186983
+2024-11-18 02:43:32,231 - INFO - Training Batch 2200: Loss = 0.144752
+2024-11-18 02:43:32,562 - INFO - Training Batch 2300: Loss = 0.159093
+2024-11-18 02:43:32,896 - INFO - Training Batch 2400: Loss = 0.174147
+2024-11-18 02:43:33,233 - INFO - Training Batch 2500: Loss = 0.123734
+2024-11-18 02:43:33,575 - INFO - Training Batch 2600: Loss = 0.111007
+2024-11-18 02:43:33,895 - INFO - Training Batch 2700: Loss = 0.137504
+2024-11-18 02:43:34,245 - INFO - Training Batch 2800: Loss = 0.178909
+2024-11-18 02:43:34,642 - INFO - Training Batch 2900: Loss = 0.117097
+2024-11-18 02:43:35,393 - INFO - Epoch 9/100
+2024-11-18 02:43:35,393 - INFO - Train Loss: 0.149398
+2024-11-18 02:43:35,393 - INFO - Validation Loss: 0.128867
+2024-11-18 02:43:35,407 - INFO - Training Batch 0: Loss = 0.153534
+2024-11-18 02:43:35,781 - INFO - Training Batch 100: Loss = 0.143706
+2024-11-18 02:43:36,152 - INFO - Training Batch 200: Loss = 0.115856
+2024-11-18 02:43:36,509 - INFO - Training Batch 300: Loss = 0.128651
+2024-11-18 02:43:36,895 - INFO - Training Batch 400: Loss = 0.184625
+2024-11-18 02:43:37,235 - INFO - Training Batch 500: Loss = 0.125846
+2024-11-18 02:43:37,591 - INFO - Training Batch 600: Loss = 0.133403
+2024-11-18 02:43:37,936 - INFO - Training Batch 700: Loss = 0.146086
+2024-11-18 02:43:38,255 - INFO - Training Batch 800: Loss = 0.130030
+2024-11-18 02:43:38,582 - INFO - Training Batch 900: Loss = 0.100163
+2024-11-18 02:43:38,953 - INFO - Training Batch 1000: Loss = 0.123866
+2024-11-18 02:43:39,287 - INFO - Training Batch 1100: Loss = 0.134265
+2024-11-18 02:43:39,625 - INFO - Training Batch 1200: Loss = 0.153146
+2024-11-18 02:43:39,976 - INFO - Training Batch 1300: Loss = 0.133516
+2024-11-18 02:43:40,313 - INFO - Training Batch 1400: Loss = 0.144970
+2024-11-18 02:43:40,664 - INFO - Training Batch 1500: Loss = 0.150295
+2024-11-18 02:43:41,021 - INFO - Training Batch 1600: Loss = 0.111253
+2024-11-18 02:43:41,352 - INFO - Training Batch 1700: Loss = 0.135270
+2024-11-18 02:43:41,690 - INFO - Training Batch 1800: Loss = 0.163609
+2024-11-18 02:43:42,025 - INFO - Training Batch 1900: Loss = 0.157014
+2024-11-18 02:43:42,348 - INFO - Training Batch 2000: Loss = 0.106846
+2024-11-18 02:43:42,678 - INFO - Training Batch 2100: Loss = 0.172682
+2024-11-18 02:43:43,010 - INFO - Training Batch 2200: Loss = 0.119556
+2024-11-18 02:43:43,363 - INFO - Training Batch 2300: Loss = 0.097925
+2024-11-18 02:43:43,693 - INFO - Training Batch 2400: Loss = 0.109549
+2024-11-18 02:43:44,031 - INFO - Training Batch 2500: Loss = 0.115054
+2024-11-18 02:43:44,365 - INFO - Training Batch 2600: Loss = 0.212663
+2024-11-18 02:43:44,695 - INFO - Training Batch 2700: Loss = 0.115413
+2024-11-18 02:43:45,029 - INFO - Training Batch 2800: Loss = 0.128081
+2024-11-18 02:43:45,379 - INFO - Training Batch 2900: Loss = 0.243708
+2024-11-18 02:43:46,015 - INFO - Epoch 10/100
+2024-11-18 02:43:46,015 - INFO - Train Loss: 0.144813
+2024-11-18 02:43:46,015 - INFO - Validation Loss: 0.120747
+2024-11-18 02:43:46,031 - INFO - New best model saved with validation loss: 0.120747
+2024-11-18 02:43:46,038 - INFO - Training Batch 0: Loss = 0.134480
+2024-11-18 02:43:46,379 - INFO - Training Batch 100: Loss = 0.119121
+2024-11-18 02:43:46,724 - INFO - Training Batch 200: Loss = 0.135274
+2024-11-18 02:43:47,060 - INFO - Training Batch 300: Loss = 0.166174
+2024-11-18 02:43:47,406 - INFO - Training Batch 400: Loss = 0.199010
+2024-11-18 02:43:47,747 - INFO - Training Batch 500: Loss = 0.177860
+2024-11-18 02:43:48,085 - INFO - Training Batch 600: Loss = 0.117596
+2024-11-18 02:43:48,417 - INFO - Training Batch 700: Loss = 0.134931
+2024-11-18 02:43:48,748 - INFO - Training Batch 800: Loss = 0.123815
+2024-11-18 02:43:49,070 - INFO - Training Batch 900: Loss = 0.097573
+2024-11-18 02:43:49,397 - INFO - Training Batch 1000: Loss = 0.125921
+2024-11-18 02:43:49,752 - INFO - Training Batch 1100: Loss = 0.144004
+2024-11-18 02:43:50,091 - INFO - Training Batch 1200: Loss = 0.129445
+2024-11-18 02:43:50,439 - INFO - Training Batch 1300: Loss = 0.165488
+2024-11-18 02:43:50,788 - INFO - Training Batch 1400: Loss = 0.102025
+2024-11-18 02:43:51,129 - INFO - Training Batch 1500: Loss = 0.094923
+2024-11-18 02:43:51,450 - INFO - Training Batch 1600: Loss = 0.122025
+2024-11-18 02:43:51,796 - INFO - Training Batch 1700: Loss = 0.136555
+2024-11-18 02:43:52,144 - INFO - Training Batch 1800: Loss = 0.109256
+2024-11-18 02:43:52,491 - INFO - Training Batch 1900: Loss = 0.156246
+2024-11-18 02:43:52,822 - INFO - Training Batch 2000: Loss = 0.151134
+2024-11-18 02:43:53,160 - INFO - Training Batch 2100: Loss = 0.127867
+2024-11-18 02:43:53,490 - INFO - Training Batch 2200: Loss = 0.136096
+2024-11-18 02:43:53,826 - INFO - Training Batch 2300: Loss = 0.161190
+2024-11-18 02:43:54,194 - INFO - Training Batch 2400: Loss = 0.204954
+2024-11-18 02:43:54,533 - INFO - Training Batch 2500: Loss = 0.143731
+2024-11-18 02:43:54,874 - INFO - Training Batch 2600: Loss = 0.164343
+2024-11-18 02:43:55,201 - INFO - Training Batch 2700: Loss = 0.137679
+2024-11-18 02:43:55,535 - INFO - Training Batch 2800: Loss = 0.160777
+2024-11-18 02:43:55,872 - INFO - Training Batch 2900: Loss = 0.135876
+2024-11-18 02:43:56,496 - INFO - Epoch 11/100
+2024-11-18 02:43:56,496 - INFO - Train Loss: 0.140673
+2024-11-18 02:43:56,496 - INFO - Validation Loss: 0.122221
+2024-11-18 02:43:56,511 - INFO - Training Batch 0: Loss = 0.120774
+2024-11-18 02:43:56,849 - INFO - Training Batch 100: Loss = 0.134779
+2024-11-18 02:43:57,188 - INFO - Training Batch 200: Loss = 0.123076
+2024-11-18 02:43:57,519 - INFO - Training Batch 300: Loss = 0.117747
+2024-11-18 02:43:57,852 - INFO - Training Batch 400: Loss = 0.151915
+2024-11-18 02:43:58,187 - INFO - Training Batch 500: Loss = 0.140597
+2024-11-18 02:43:58,528 - INFO - Training Batch 600: Loss = 0.124171
+2024-11-18 02:43:58,856 - INFO - Training Batch 700: Loss = 0.096037
+2024-11-18 02:43:59,198 - INFO - Training Batch 800: Loss = 0.203831
+2024-11-18 02:43:59,541 - INFO - Training Batch 900: Loss = 0.156898
+2024-11-18 02:43:59,876 - INFO - Training Batch 1000: Loss = 0.120896
+2024-11-18 02:44:00,219 - INFO - Training Batch 1100: Loss = 0.121567
+2024-11-18 02:44:00,549 - INFO - Training Batch 1200: Loss = 0.142245
+2024-11-18 02:44:00,910 - INFO - Training Batch 1300: Loss = 0.123996
+2024-11-18 02:44:01,246 - INFO - Training Batch 1400: Loss = 0.099710
+2024-11-18 02:44:01,586 - INFO - Training Batch 1500: Loss = 0.125389
+2024-11-18 02:44:01,922 - INFO - Training Batch 1600: Loss = 0.108877
+2024-11-18 02:44:02,294 - INFO - Training Batch 1700: Loss = 0.133817
+2024-11-18 02:44:02,674 - INFO - Training Batch 1800: Loss = 0.153313
+2024-11-18 02:44:03,053 - INFO - Training Batch 1900: Loss = 0.153961
+2024-11-18 02:44:03,375 - INFO - Training Batch 2000: Loss = 0.134217
+2024-11-18 02:44:03,715 - INFO - Training Batch 2100: Loss = 0.140327
+2024-11-18 02:44:04,048 - INFO - Training Batch 2200: Loss = 0.134830
+2024-11-18 02:44:04,382 - INFO - Training Batch 2300: Loss = 0.146979
+2024-11-18 02:44:04,728 - INFO - Training Batch 2400: Loss = 0.112991
+2024-11-18 02:44:05,082 - INFO - Training Batch 2500: Loss = 0.083045
+2024-11-18 02:44:05,438 - INFO - Training Batch 2600: Loss = 0.170971
+2024-11-18 02:44:05,776 - INFO - Training Batch 2700: Loss = 0.139081
+2024-11-18 02:44:06,225 - INFO - Training Batch 2800: Loss = 0.176564
+2024-11-18 02:44:06,561 - INFO - Training Batch 2900: Loss = 0.154074
+2024-11-18 02:44:07,171 - INFO - Epoch 12/100
+2024-11-18 02:44:07,171 - INFO - Train Loss: 0.137682
+2024-11-18 02:44:07,171 - INFO - Validation Loss: 0.123090
+2024-11-18 02:44:07,193 - INFO - Training Batch 0: Loss = 0.121480
+2024-11-18 02:44:07,558 - INFO - Training Batch 100: Loss = 0.098116
+2024-11-18 02:44:07,892 - INFO - Training Batch 200: Loss = 0.086634
+2024-11-18 02:44:08,225 - INFO - Training Batch 300: Loss = 0.097809
+2024-11-18 02:44:08,563 - INFO - Training Batch 400: Loss = 0.101059
+2024-11-18 02:44:08,890 - INFO - Training Batch 500: Loss = 0.105482
+2024-11-18 02:44:09,234 - INFO - Training Batch 600: Loss = 0.132980
+2024-11-18 02:44:09,591 - INFO - Training Batch 700: Loss = 0.134030
+2024-11-18 02:44:09,925 - INFO - Training Batch 800: Loss = 0.103542
+2024-11-18 02:44:10,259 - INFO - Training Batch 900: Loss = 0.096095
+2024-11-18 02:44:10,595 - INFO - Training Batch 1000: Loss = 0.142604
+2024-11-18 02:44:10,917 - INFO - Training Batch 1100: Loss = 0.133787
+2024-11-18 02:44:11,248 - INFO - Training Batch 1200: Loss = 0.132221
+2024-11-18 02:44:11,601 - INFO - Training Batch 1300: Loss = 0.107569
+2024-11-18 02:44:11,950 - INFO - Training Batch 1400: Loss = 0.117061
+2024-11-18 02:44:12,284 - INFO - Training Batch 1500: Loss = 0.143548
+2024-11-18 02:44:12,612 - INFO - Training Batch 1600: Loss = 0.091268
+2024-11-18 02:44:12,954 - INFO - Training Batch 1700: Loss = 0.096039
+2024-11-18 02:44:13,295 - INFO - Training Batch 1800: Loss = 0.131693
+2024-11-18 02:44:13,611 - INFO - Training Batch 1900: Loss = 0.128604
+2024-11-18 02:44:13,953 - INFO - Training Batch 2000: Loss = 0.083235
+2024-11-18 02:44:14,276 - INFO - Training Batch 2100: Loss = 0.118442
+2024-11-18 02:44:14,613 - INFO - Training Batch 2200: Loss = 0.090005
+2024-11-18 02:44:14,938 - INFO - Training Batch 2300: Loss = 0.149714
+2024-11-18 02:44:15,281 - INFO - Training Batch 2400: Loss = 0.112093
+2024-11-18 02:44:15,620 - INFO - Training Batch 2500: Loss = 0.152339
+2024-11-18 02:44:15,963 - INFO - Training Batch 2600: Loss = 0.136189
+2024-11-18 02:44:16,300 - INFO - Training Batch 2700: Loss = 0.118755
+2024-11-18 02:44:16,634 - INFO - Training Batch 2800: Loss = 0.164398
+2024-11-18 02:44:16,949 - INFO - Training Batch 2900: Loss = 0.114189
+2024-11-18 02:44:17,571 - INFO - Epoch 13/100
+2024-11-18 02:44:17,571 - INFO - Train Loss: 0.135182
+2024-11-18 02:44:17,571 - INFO - Validation Loss: 0.119575
+2024-11-18 02:44:17,590 - INFO - New best model saved with validation loss: 0.119575
+2024-11-18 02:44:17,597 - INFO - Training Batch 0: Loss = 0.151198
+2024-11-18 02:44:17,953 - INFO - Training Batch 100: Loss = 0.134725
+2024-11-18 02:44:18,315 - INFO - Training Batch 200: Loss = 0.136115
+2024-11-18 02:44:18,656 - INFO - Training Batch 300: Loss = 0.139959
+2024-11-18 02:44:18,994 - INFO - Training Batch 400: Loss = 0.144313
+2024-11-18 02:44:19,354 - INFO - Training Batch 500: Loss = 0.183974
+2024-11-18 02:44:19,705 - INFO - Training Batch 600: Loss = 0.088374
+2024-11-18 02:44:20,033 - INFO - Training Batch 700: Loss = 0.170315
+2024-11-18 02:44:20,365 - INFO - Training Batch 800: Loss = 0.160804
+2024-11-18 02:44:20,717 - INFO - Training Batch 900: Loss = 0.130588
+2024-11-18 02:44:21,050 - INFO - Training Batch 1000: Loss = 0.135181
+2024-11-18 02:44:21,388 - INFO - Training Batch 1100: Loss = 0.154824
+2024-11-18 02:44:21,722 - INFO - Training Batch 1200: Loss = 0.156862
+2024-11-18 02:44:22,061 - INFO - Training Batch 1300: Loss = 0.206791
+2024-11-18 02:44:22,405 - INFO - Training Batch 1400: Loss = 0.137183
+2024-11-18 02:44:22,764 - INFO - Training Batch 1500: Loss = 0.115674
+2024-11-18 02:44:23,106 - INFO - Training Batch 1600: Loss = 0.122160
+2024-11-18 02:44:23,433 - INFO - Training Batch 1700: Loss = 0.122286
+2024-11-18 02:44:23,768 - INFO - Training Batch 1800: Loss = 0.140885
+2024-11-18 02:44:24,095 - INFO - Training Batch 1900: Loss = 0.097946
+2024-11-18 02:44:24,420 - INFO - Training Batch 2000: Loss = 0.202805
+2024-11-18 02:44:24,765 - INFO - Training Batch 2100: Loss = 0.117855
+2024-11-18 02:44:25,096 - INFO - Training Batch 2200: Loss = 0.171711
+2024-11-18 02:44:25,430 - INFO - Training Batch 2300: Loss = 0.092165
+2024-11-18 02:44:25,768 - INFO - Training Batch 2400: Loss = 0.151803
+2024-11-18 02:44:26,111 - INFO - Training Batch 2500: Loss = 0.097403
+2024-11-18 02:44:26,447 - INFO - Training Batch 2600: Loss = 0.187431
+2024-11-18 02:44:26,781 - INFO - Training Batch 2700: Loss = 0.190822
+2024-11-18 02:44:27,139 - INFO - Training Batch 2800: Loss = 0.113066
+2024-11-18 02:44:27,475 - INFO - Training Batch 2900: Loss = 0.128116
+2024-11-18 02:44:28,093 - INFO - Epoch 14/100
+2024-11-18 02:44:28,093 - INFO - Train Loss: 0.132379
+2024-11-18 02:44:28,093 - INFO - Validation Loss: 0.122940
+2024-11-18 02:44:28,110 - INFO - Training Batch 0: Loss = 0.162587
+2024-11-18 02:44:28,491 - INFO - Training Batch 100: Loss = 0.108136
+2024-11-18 02:44:28,827 - INFO - Training Batch 200: Loss = 0.154613
+2024-11-18 02:44:29,190 - INFO - Training Batch 300: Loss = 0.120676
+2024-11-18 02:44:29,529 - INFO - Training Batch 400: Loss = 0.108511
+2024-11-18 02:44:29,862 - INFO - Training Batch 500: Loss = 0.127386
+2024-11-18 02:44:30,209 - INFO - Training Batch 600: Loss = 0.100246
+2024-11-18 02:44:30,539 - INFO - Training Batch 700: Loss = 0.116846
+2024-11-18 02:44:30,879 - INFO - Training Batch 800: Loss = 0.157051
+2024-11-18 02:44:31,193 - INFO - Training Batch 900: Loss = 0.110204
+2024-11-18 02:44:31,540 - INFO - Training Batch 1000: Loss = 0.134472
+2024-11-18 02:44:31,880 - INFO - Training Batch 1100: Loss = 0.165675
+2024-11-18 02:44:32,216 - INFO - Training Batch 1200: Loss = 0.103832
+2024-11-18 02:44:32,566 - INFO - Training Batch 1300: Loss = 0.147541
+2024-11-18 02:44:32,902 - INFO - Training Batch 1400: Loss = 0.090764
+2024-11-18 02:44:33,300 - INFO - Training Batch 1500: Loss = 0.101767
+2024-11-18 02:44:33,727 - INFO - Training Batch 1600: Loss = 0.084961
+2024-11-18 02:44:34,119 - INFO - Training Batch 1700: Loss = 0.140608
+2024-11-18 02:44:34,448 - INFO - Training Batch 1800: Loss = 0.096235
+2024-11-18 02:44:34,792 - INFO - Training Batch 1900: Loss = 0.125926
+2024-11-18 02:44:35,125 - INFO - Training Batch 2000: Loss = 0.111173
+2024-11-18 02:44:35,463 - INFO - Training Batch 2100: Loss = 0.160571
+2024-11-18 02:44:35,819 - INFO - Training Batch 2200: Loss = 0.120162
+2024-11-18 02:44:36,163 - INFO - Training Batch 2300: Loss = 0.160617
+2024-11-18 02:44:36,491 - INFO - Training Batch 2400: Loss = 0.173042
+2024-11-18 02:44:36,836 - INFO - Training Batch 2500: Loss = 0.134318
+2024-11-18 02:44:37,163 - INFO - Training Batch 2600: Loss = 0.160273
+2024-11-18 02:44:37,495 - INFO - Training Batch 2700: Loss = 0.111105
+2024-11-18 02:44:37,837 - INFO - Training Batch 2800: Loss = 0.109647
+2024-11-18 02:44:38,170 - INFO - Training Batch 2900: Loss = 0.130927
+2024-11-18 02:44:38,815 - INFO - Epoch 15/100
+2024-11-18 02:44:38,815 - INFO - Train Loss: 0.129910
+2024-11-18 02:44:38,815 - INFO - Validation Loss: 0.119884
+2024-11-18 02:44:38,830 - INFO - Training Batch 0: Loss = 0.136449
+2024-11-18 02:44:39,205 - INFO - Training Batch 100: Loss = 0.133531
+2024-11-18 02:44:39,535 - INFO - Training Batch 200: Loss = 0.139762
+2024-11-18 02:44:39,874 - INFO - Training Batch 300: Loss = 0.125138
+2024-11-18 02:44:40,230 - INFO - Training Batch 400: Loss = 0.084300
+2024-11-18 02:44:40,582 - INFO - Training Batch 500: Loss = 0.132301
+2024-11-18 02:44:40,918 - INFO - Training Batch 600: Loss = 0.156791
+2024-11-18 02:44:41,260 - INFO - Training Batch 700: Loss = 0.127776
+2024-11-18 02:44:41,583 - INFO - Training Batch 800: Loss = 0.107043
+2024-11-18 02:44:41,914 - INFO - Training Batch 900: Loss = 0.103159
+2024-11-18 02:44:42,268 - INFO - Training Batch 1000: Loss = 0.127274
+2024-11-18 02:44:42,609 - INFO - Training Batch 1100: Loss = 0.103646
+2024-11-18 02:44:42,942 - INFO - Training Batch 1200: Loss = 0.098458
+2024-11-18 02:44:43,270 - INFO - Training Batch 1300: Loss = 0.139232
+2024-11-18 02:44:43,606 - INFO - Training Batch 1400: Loss = 0.106594
+2024-11-18 02:44:43,942 - INFO - Training Batch 1500: Loss = 0.119094
+2024-11-18 02:44:44,284 - INFO - Training Batch 1600: Loss = 0.138716
+2024-11-18 02:44:44,632 - INFO - Training Batch 1700: Loss = 0.141488
+2024-11-18 02:44:44,966 - INFO - Training Batch 1800: Loss = 0.114396
+2024-11-18 02:44:45,301 - INFO - Training Batch 1900: Loss = 0.128676
+2024-11-18 02:44:45,633 - INFO - Training Batch 2000: Loss = 0.095464
+2024-11-18 02:44:45,966 - INFO - Training Batch 2100: Loss = 0.109044
+2024-11-18 02:44:46,299 - INFO - Training Batch 2200: Loss = 0.141141
+2024-11-18 02:44:46,650 - INFO - Training Batch 2300: Loss = 0.078073
+2024-11-18 02:44:46,988 - INFO - Training Batch 2400: Loss = 0.148354
+2024-11-18 02:44:47,335 - INFO - Training Batch 2500: Loss = 0.095140
+2024-11-18 02:44:47,672 - INFO - Training Batch 2600: Loss = 0.124444
+2024-11-18 02:44:48,006 - INFO - Training Batch 2700: Loss = 0.152762
+2024-11-18 02:44:48,333 - INFO - Training Batch 2800: Loss = 0.101732
+2024-11-18 02:44:48,659 - INFO - Training Batch 2900: Loss = 0.173665
+2024-11-18 02:44:49,295 - INFO - Epoch 16/100
+2024-11-18 02:44:49,295 - INFO - Train Loss: 0.128094
+2024-11-18 02:44:49,295 - INFO - Validation Loss: 0.126199
+2024-11-18 02:44:49,310 - INFO - Training Batch 0: Loss = 0.160672
+2024-11-18 02:44:49,669 - INFO - Training Batch 100: Loss = 0.157057
+2024-11-18 02:44:50,009 - INFO - Training Batch 200: Loss = 0.126995
+2024-11-18 02:44:50,349 - INFO - Training Batch 300: Loss = 0.116330
+2024-11-18 02:44:50,690 - INFO - Training Batch 400: Loss = 0.126448
+2024-11-18 02:44:51,034 - INFO - Training Batch 500: Loss = 0.114730
+2024-11-18 02:44:51,376 - INFO - Training Batch 600: Loss = 0.139057
+2024-11-18 02:44:51,715 - INFO - Training Batch 700: Loss = 0.135413
+2024-11-18 02:44:52,060 - INFO - Training Batch 800: Loss = 0.106280
+2024-11-18 02:44:52,388 - INFO - Training Batch 900: Loss = 0.119421
+2024-11-18 02:44:52,734 - INFO - Training Batch 1000: Loss = 0.087732
+2024-11-18 02:44:53,079 - INFO - Training Batch 1100: Loss = 0.118825
+2024-11-18 02:44:53,439 - INFO - Training Batch 1200: Loss = 0.112064
+2024-11-18 02:44:53,787 - INFO - Training Batch 1300: Loss = 0.121200
+2024-11-18 02:44:54,133 - INFO - Training Batch 1400: Loss = 0.173357
+2024-11-18 02:44:54,477 - INFO - Training Batch 1500: Loss = 0.129834
+2024-11-18 02:44:54,815 - INFO - Training Batch 1600: Loss = 0.147743
+2024-11-18 02:44:55,153 - INFO - Training Batch 1700: Loss = 0.104093
+2024-11-18 02:44:55,492 - INFO - Training Batch 1800: Loss = 0.138042
+2024-11-18 02:44:55,839 - INFO - Training Batch 1900: Loss = 0.122329
+2024-11-18 02:44:56,179 - INFO - Training Batch 2000: Loss = 0.114638
+2024-11-18 02:44:56,516 - INFO - Training Batch 2100: Loss = 0.176587
+2024-11-18 02:44:56,850 - INFO - Training Batch 2200: Loss = 0.096824
+2024-11-18 02:44:57,208 - INFO - Training Batch 2300: Loss = 0.131544
+2024-11-18 02:44:57,541 - INFO - Training Batch 2400: Loss = 0.113926
+2024-11-18 02:44:57,871 - INFO - Training Batch 2500: Loss = 0.135755
+2024-11-18 02:44:58,201 - INFO - Training Batch 2600: Loss = 0.095161
+2024-11-18 02:44:58,541 - INFO - Training Batch 2700: Loss = 0.133792
+2024-11-18 02:44:58,888 - INFO - Training Batch 2800: Loss = 0.100458
+2024-11-18 02:44:59,235 - INFO - Training Batch 2900: Loss = 0.169637
+2024-11-18 02:44:59,883 - INFO - Epoch 17/100
+2024-11-18 02:44:59,883 - INFO - Train Loss: 0.126522
+2024-11-18 02:44:59,884 - INFO - Validation Loss: 0.117432
+2024-11-18 02:44:59,911 - INFO - New best model saved with validation loss: 0.117432
+2024-11-18 02:44:59,916 - INFO - Training Batch 0: Loss = 0.122906
+2024-11-18 02:45:00,278 - INFO - Training Batch 100: Loss = 0.099719
+2024-11-18 02:45:00,620 - INFO - Training Batch 200: Loss = 0.131309
+2024-11-18 02:45:00,951 - INFO - Training Batch 300: Loss = 0.118685
+2024-11-18 02:45:01,288 - INFO - Training Batch 400: Loss = 0.127160
+2024-11-18 02:45:01,628 - INFO - Training Batch 500: Loss = 0.145643
+2024-11-18 02:45:01,969 - INFO - Training Batch 600: Loss = 0.120980
+2024-11-18 02:45:02,352 - INFO - Training Batch 700: Loss = 0.112994
+2024-11-18 02:45:02,702 - INFO - Training Batch 800: Loss = 0.142589
+2024-11-18 02:45:03,045 - INFO - Training Batch 900: Loss = 0.133777
+2024-11-18 02:45:03,387 - INFO - Training Batch 1000: Loss = 0.170302
+2024-11-18 02:45:03,737 - INFO - Training Batch 1100: Loss = 0.107999
+2024-11-18 02:45:04,090 - INFO - Training Batch 1200: Loss = 0.088640
+2024-11-18 02:45:04,487 - INFO - Training Batch 1300: Loss = 0.134962
+2024-11-18 02:45:04,866 - INFO - Training Batch 1400: Loss = 0.129728
+2024-11-18 02:45:05,239 - INFO - Training Batch 1500: Loss = 0.110175
+2024-11-18 02:45:05,584 - INFO - Training Batch 1600: Loss = 0.155051
+2024-11-18 02:45:05,951 - INFO - Training Batch 1700: Loss = 0.102410
+2024-11-18 02:45:06,311 - INFO - Training Batch 1800: Loss = 0.092305
+2024-11-18 02:45:06,657 - INFO - Training Batch 1900: Loss = 0.108489
+2024-11-18 02:45:06,977 - INFO - Training Batch 2000: Loss = 0.097825
+2024-11-18 02:45:07,317 - INFO - Training Batch 2100: Loss = 0.092740
+2024-11-18 02:45:07,654 - INFO - Training Batch 2200: Loss = 0.131003
+2024-11-18 02:45:07,989 - INFO - Training Batch 2300: Loss = 0.150579
+2024-11-18 02:45:08,336 - INFO - Training Batch 2400: Loss = 0.134434
+2024-11-18 02:45:08,678 - INFO - Training Batch 2500: Loss = 0.119097
+2024-11-18 02:45:09,020 - INFO - Training Batch 2600: Loss = 0.102593
+2024-11-18 02:45:09,366 - INFO - Training Batch 2700: Loss = 0.130495
+2024-11-18 02:45:09,690 - INFO - Training Batch 2800: Loss = 0.140259
+2024-11-18 02:45:10,032 - INFO - Training Batch 2900: Loss = 0.163218
+2024-11-18 02:45:10,710 - INFO - Epoch 18/100
+2024-11-18 02:45:10,710 - INFO - Train Loss: 0.124633
+2024-11-18 02:45:10,710 - INFO - Validation Loss: 0.117122
+2024-11-18 02:45:10,728 - INFO - New best model saved with validation loss: 0.117122
+2024-11-18 02:45:10,735 - INFO - Training Batch 0: Loss = 0.073591
+2024-11-18 02:45:11,111 - INFO - Training Batch 100: Loss = 0.124355
+2024-11-18 02:45:11,456 - INFO - Training Batch 200: Loss = 0.106495
+2024-11-18 02:45:11,789 - INFO - Training Batch 300: Loss = 0.128149
+2024-11-18 02:45:12,134 - INFO - Training Batch 400: Loss = 0.210408
+2024-11-18 02:45:12,464 - INFO - Training Batch 500: Loss = 0.093984
+2024-11-18 02:45:12,822 - INFO - Training Batch 600: Loss = 0.102615
+2024-11-18 02:45:13,174 - INFO - Training Batch 700: Loss = 0.144807
+2024-11-18 02:45:13,521 - INFO - Training Batch 800: Loss = 0.107501
+2024-11-18 02:45:13,854 - INFO - Training Batch 900: Loss = 0.169274
+2024-11-18 02:45:14,240 - INFO - Training Batch 1000: Loss = 0.136534
+2024-11-18 02:45:14,667 - INFO - Training Batch 1100: Loss = 0.115849
+2024-11-18 02:45:15,026 - INFO - Training Batch 1200: Loss = 0.115329
+2024-11-18 02:45:15,386 - INFO - Training Batch 1300: Loss = 0.128162
+2024-11-18 02:45:15,725 - INFO - Training Batch 1400: Loss = 0.133219
+2024-11-18 02:45:16,056 - INFO - Training Batch 1500: Loss = 0.104627
+2024-11-18 02:45:16,387 - INFO - Training Batch 1600: Loss = 0.109529
+2024-11-18 02:45:16,724 - INFO - Training Batch 1700: Loss = 0.105209
+2024-11-18 02:45:17,064 - INFO - Training Batch 1800: Loss = 0.139254
+2024-11-18 02:45:17,404 - INFO - Training Batch 1900: Loss = 0.157189
+2024-11-18 02:45:17,736 - INFO - Training Batch 2000: Loss = 0.110880
+2024-11-18 02:45:18,057 - INFO - Training Batch 2100: Loss = 0.089083
+2024-11-18 02:45:18,384 - INFO - Training Batch 2200: Loss = 0.137844
+2024-11-18 02:45:18,707 - INFO - Training Batch 2300: Loss = 0.095880
+2024-11-18 02:45:19,038 - INFO - Training Batch 2400: Loss = 0.075511
+2024-11-18 02:45:19,369 - INFO - Training Batch 2500: Loss = 0.172401
+2024-11-18 02:45:19,726 - INFO - Training Batch 2600: Loss = 0.096122
+2024-11-18 02:45:20,058 - INFO - Training Batch 2700: Loss = 0.102624
+2024-11-18 02:45:20,394 - INFO - Training Batch 2800: Loss = 0.097945
+2024-11-18 02:45:20,732 - INFO - Training Batch 2900: Loss = 0.149227
+2024-11-18 02:45:21,345 - INFO - Epoch 19/100
+2024-11-18 02:45:21,345 - INFO - Train Loss: 0.123353
+2024-11-18 02:45:21,345 - INFO - Validation Loss: 0.114944
+2024-11-18 02:45:21,366 - INFO - New best model saved with validation loss: 0.114944
+2024-11-18 02:45:21,373 - INFO - Training Batch 0: Loss = 0.117558
+2024-11-18 02:45:21,717 - INFO - Training Batch 100: Loss = 0.141465
+2024-11-18 02:45:22,060 - INFO - Training Batch 200: Loss = 0.128848
+2024-11-18 02:45:22,404 - INFO - Training Batch 300: Loss = 0.140977
+2024-11-18 02:45:22,781 - INFO - Training Batch 400: Loss = 0.080192
+2024-11-18 02:45:23,116 - INFO - Training Batch 500: Loss = 0.151001
+2024-11-18 02:45:23,492 - INFO - Training Batch 600: Loss = 0.134258
+2024-11-18 02:45:23,824 - INFO - Training Batch 700: Loss = 0.118826
+2024-11-18 02:45:24,178 - INFO - Training Batch 800: Loss = 0.148160
+2024-11-18 02:45:24,508 - INFO - Training Batch 900: Loss = 0.134054
+2024-11-18 02:45:24,845 - INFO - Training Batch 1000: Loss = 0.130928
+2024-11-18 02:45:25,190 - INFO - Training Batch 1100: Loss = 0.096582
+2024-11-18 02:45:25,537 - INFO - Training Batch 1200: Loss = 0.104185
+2024-11-18 02:45:25,880 - INFO - Training Batch 1300: Loss = 0.113268
+2024-11-18 02:45:26,215 - INFO - Training Batch 1400: Loss = 0.114757
+2024-11-18 02:45:26,570 - INFO - Training Batch 1500: Loss = 0.091897
+2024-11-18 02:45:26,887 - INFO - Training Batch 1600: Loss = 0.118940
+2024-11-18 02:45:27,227 - INFO - Training Batch 1700: Loss = 0.109328
+2024-11-18 02:45:27,563 - INFO - Training Batch 1800: Loss = 0.158699
+2024-11-18 02:45:27,898 - INFO - Training Batch 1900: Loss = 0.108264
+2024-11-18 02:45:28,228 - INFO - Training Batch 2000: Loss = 0.144297
+2024-11-18 02:45:28,564 - INFO - Training Batch 2100: Loss = 0.109052
+2024-11-18 02:45:28,896 - INFO - Training Batch 2200: Loss = 0.149973
+2024-11-18 02:45:29,227 - INFO - Training Batch 2300: Loss = 0.137661
+2024-11-18 02:45:29,544 - INFO - Training Batch 2400: Loss = 0.203258
+2024-11-18 02:45:29,872 - INFO - Training Batch 2500: Loss = 0.088857
+2024-11-18 02:45:30,216 - INFO - Training Batch 2600: Loss = 0.097522
+2024-11-18 02:45:30,546 - INFO - Training Batch 2700: Loss = 0.107707
+2024-11-18 02:45:30,885 - INFO - Training Batch 2800: Loss = 0.086965
+2024-11-18 02:45:31,214 - INFO - Training Batch 2900: Loss = 0.091946
+2024-11-18 02:45:31,833 - INFO - Epoch 20/100
+2024-11-18 02:45:31,833 - INFO - Train Loss: 0.121981
+2024-11-18 02:45:31,833 - INFO - Validation Loss: 0.119959
+2024-11-18 02:45:31,848 - INFO - Training Batch 0: Loss = 0.107931
+2024-11-18 02:45:32,177 - INFO - Training Batch 100: Loss = 0.092714
+2024-11-18 02:45:32,506 - INFO - Training Batch 200: Loss = 0.086607
+2024-11-18 02:45:32,844 - INFO - Training Batch 300: Loss = 0.112529
+2024-11-18 02:45:33,180 - INFO - Training Batch 400: Loss = 0.140563
+2024-11-18 02:45:33,514 - INFO - Training Batch 500: Loss = 0.098378
+2024-11-18 02:45:33,861 - INFO - Training Batch 600: Loss = 0.122576
+2024-11-18 02:45:34,195 - INFO - Training Batch 700: Loss = 0.126488
+2024-11-18 02:45:34,553 - INFO - Training Batch 800: Loss = 0.094253
+2024-11-18 02:45:34,882 - INFO - Training Batch 900: Loss = 0.117459
+2024-11-18 02:45:35,226 - INFO - Training Batch 1000: Loss = 0.153774
+2024-11-18 02:45:35,601 - INFO - Training Batch 1100: Loss = 0.110228
+2024-11-18 02:45:35,971 - INFO - Training Batch 1200: Loss = 0.114600
+2024-11-18 02:45:36,350 - INFO - Training Batch 1300: Loss = 0.109422
+2024-11-18 02:45:36,674 - INFO - Training Batch 1400: Loss = 0.140333
+2024-11-18 02:45:37,014 - INFO - Training Batch 1500: Loss = 0.099754
+2024-11-18 02:45:37,354 - INFO - Training Batch 1600: Loss = 0.126895
+2024-11-18 02:45:37,700 - INFO - Training Batch 1700: Loss = 0.110827
+2024-11-18 02:45:38,051 - INFO - Training Batch 1800: Loss = 0.091137
+2024-11-18 02:45:38,378 - INFO - Training Batch 1900: Loss = 0.182162
+2024-11-18 02:45:38,709 - INFO - Training Batch 2000: Loss = 0.083920
+2024-11-18 02:45:39,046 - INFO - Training Batch 2100: Loss = 0.139100
+2024-11-18 02:45:39,392 - INFO - Training Batch 2200: Loss = 0.162342
+2024-11-18 02:45:39,724 - INFO - Training Batch 2300: Loss = 0.102082
+2024-11-18 02:45:40,043 - INFO - Training Batch 2400: Loss = 0.091458
+2024-11-18 02:45:40,378 - INFO - Training Batch 2500: Loss = 0.105584
+2024-11-18 02:45:40,710 - INFO - Training Batch 2600: Loss = 0.088780
+2024-11-18 02:45:41,050 - INFO - Training Batch 2700: Loss = 0.099037
+2024-11-18 02:45:41,392 - INFO - Training Batch 2800: Loss = 0.102845
+2024-11-18 02:45:41,742 - INFO - Training Batch 2900: Loss = 0.106440
+2024-11-18 02:45:42,353 - INFO - Epoch 21/100
+2024-11-18 02:45:42,353 - INFO - Train Loss: 0.120474
+2024-11-18 02:45:42,353 - INFO - Validation Loss: 0.109753
+2024-11-18 02:45:42,373 - INFO - New best model saved with validation loss: 0.109753
+2024-11-18 02:45:42,381 - INFO - Training Batch 0: Loss = 0.130041
+2024-11-18 02:45:42,727 - INFO - Training Batch 100: Loss = 0.103800
+2024-11-18 02:45:43,062 - INFO - Training Batch 200: Loss = 0.112939
+2024-11-18 02:45:43,420 - INFO - Training Batch 300: Loss = 0.119604
+2024-11-18 02:45:43,755 - INFO - Training Batch 400: Loss = 0.146023
+2024-11-18 02:45:44,088 - INFO - Training Batch 500: Loss = 0.125707
+2024-11-18 02:45:44,418 - INFO - Training Batch 600: Loss = 0.099199
+2024-11-18 02:45:44,749 - INFO - Training Batch 700: Loss = 0.100824
+2024-11-18 02:45:45,076 - INFO - Training Batch 800: Loss = 0.090096
+2024-11-18 02:45:45,420 - INFO - Training Batch 900: Loss = 0.115757
+2024-11-18 02:45:45,762 - INFO - Training Batch 1000: Loss = 0.112958
+2024-11-18 02:45:46,104 - INFO - Training Batch 1100: Loss = 0.085017
+2024-11-18 02:45:46,438 - INFO - Training Batch 1200: Loss = 0.099961
+2024-11-18 02:45:46,778 - INFO - Training Batch 1300: Loss = 0.075522
+2024-11-18 02:45:47,110 - INFO - Training Batch 1400: Loss = 0.153321
+2024-11-18 02:45:47,445 - INFO - Training Batch 1500: Loss = 0.147615
+2024-11-18 02:45:47,785 - INFO - Training Batch 1600: Loss = 0.105015
+2024-11-18 02:45:48,126 - INFO - Training Batch 1700: Loss = 0.105031
+2024-11-18 02:45:48,466 - INFO - Training Batch 1800: Loss = 0.091300
+2024-11-18 02:45:48,795 - INFO - Training Batch 1900: Loss = 0.101630
+2024-11-18 02:45:49,136 - INFO - Training Batch 2000: Loss = 0.108235
+2024-11-18 02:45:49,472 - INFO - Training Batch 2100: Loss = 0.100089
+2024-11-18 02:45:49,818 - INFO - Training Batch 2200: Loss = 0.112653
+2024-11-18 02:45:50,146 - INFO - Training Batch 2300: Loss = 0.133291
+2024-11-18 02:45:50,481 - INFO - Training Batch 2400: Loss = 0.128035
+2024-11-18 02:45:50,818 - INFO - Training Batch 2500: Loss = 0.136507
+2024-11-18 02:45:51,154 - INFO - Training Batch 2600: Loss = 0.093023
+2024-11-18 02:45:51,488 - INFO - Training Batch 2700: Loss = 0.135070
+2024-11-18 02:45:51,823 - INFO - Training Batch 2800: Loss = 0.119518
+2024-11-18 02:45:52,165 - INFO - Training Batch 2900: Loss = 0.084622
+2024-11-18 02:45:52,798 - INFO - Epoch 22/100
+2024-11-18 02:45:52,798 - INFO - Train Loss: 0.119293
+2024-11-18 02:45:52,798 - INFO - Validation Loss: 0.117973
+2024-11-18 02:45:52,813 - INFO - Training Batch 0: Loss = 0.114681
+2024-11-18 02:45:53,163 - INFO - Training Batch 100: Loss = 0.093033
+2024-11-18 02:45:53,503 - INFO - Training Batch 200: Loss = 0.129609
+2024-11-18 02:45:53,830 - INFO - Training Batch 300: Loss = 0.140722
+2024-11-18 02:45:54,173 - INFO - Training Batch 400: Loss = 0.117882
+2024-11-18 02:45:54,507 - INFO - Training Batch 500: Loss = 0.104696
+2024-11-18 02:45:54,846 - INFO - Training Batch 600: Loss = 0.100319
+2024-11-18 02:45:55,176 - INFO - Training Batch 700: Loss = 0.103538
+2024-11-18 02:45:55,503 - INFO - Training Batch 800: Loss = 0.088985
+2024-11-18 02:45:55,833 - INFO - Training Batch 900: Loss = 0.122212
+2024-11-18 02:45:56,163 - INFO - Training Batch 1000: Loss = 0.112287
+2024-11-18 02:45:56,468 - INFO - Training Batch 1100: Loss = 0.148883
+2024-11-18 02:45:56,796 - INFO - Training Batch 1200: Loss = 0.129638
+2024-11-18 02:45:57,125 - INFO - Training Batch 1300: Loss = 0.126929
+2024-11-18 02:45:57,450 - INFO - Training Batch 1400: Loss = 0.122352
+2024-11-18 02:45:57,797 - INFO - Training Batch 1500: Loss = 0.140186
+2024-11-18 02:45:58,123 - INFO - Training Batch 1600: Loss = 0.171387
+2024-11-18 02:45:58,451 - INFO - Training Batch 1700: Loss = 0.112415
+2024-11-18 02:45:58,803 - INFO - Training Batch 1800: Loss = 0.152209
+2024-11-18 02:45:59,130 - INFO - Training Batch 1900: Loss = 0.097647
+2024-11-18 02:45:59,457 - INFO - Training Batch 2000: Loss = 0.105376
+2024-11-18 02:45:59,782 - INFO - Training Batch 2100: Loss = 0.093637
+2024-11-18 02:46:00,105 - INFO - Training Batch 2200: Loss = 0.084114
+2024-11-18 02:46:00,444 - INFO - Training Batch 2300: Loss = 0.101585
+2024-11-18 02:46:00,788 - INFO - Training Batch 2400: Loss = 0.133402
+2024-11-18 02:46:01,110 - INFO - Training Batch 2500: Loss = 0.085813
+2024-11-18 02:46:01,437 - INFO - Training Batch 2600: Loss = 0.128691
+2024-11-18 02:46:01,787 - INFO - Training Batch 2700: Loss = 0.141095
+2024-11-18 02:46:02,123 - INFO - Training Batch 2800: Loss = 0.106816
+2024-11-18 02:46:02,444 - INFO - Training Batch 2900: Loss = 0.132100
+2024-11-18 02:46:03,092 - INFO - Epoch 23/100
+2024-11-18 02:46:03,092 - INFO - Train Loss: 0.117788
+2024-11-18 02:46:03,092 - INFO - Validation Loss: 0.118002
+2024-11-18 02:46:03,107 - INFO - Training Batch 0: Loss = 0.091526
+2024-11-18 02:46:03,458 - INFO - Training Batch 100: Loss = 0.081278
+2024-11-18 02:46:03,789 - INFO - Training Batch 200: Loss = 0.109024
+2024-11-18 02:46:04,126 - INFO - Training Batch 300: Loss = 0.105368
+2024-11-18 02:46:04,464 - INFO - Training Batch 400: Loss = 0.113884
+2024-11-18 02:46:04,803 - INFO - Training Batch 500: Loss = 0.148564
+2024-11-18 02:46:05,161 - INFO - Training Batch 600: Loss = 0.112105
+2024-11-18 02:46:05,493 - INFO - Training Batch 700: Loss = 0.111961
+2024-11-18 02:46:05,842 - INFO - Training Batch 800: Loss = 0.105120
+2024-11-18 02:46:06,166 - INFO - Training Batch 900: Loss = 0.126232
+2024-11-18 02:46:06,536 - INFO - Training Batch 1000: Loss = 0.105665
+2024-11-18 02:46:06,913 - INFO - Training Batch 1100: Loss = 0.106661
+2024-11-18 02:46:07,297 - INFO - Training Batch 1200: Loss = 0.117977
+2024-11-18 02:46:07,633 - INFO - Training Batch 1300: Loss = 0.115501
+2024-11-18 02:46:07,979 - INFO - Training Batch 1400: Loss = 0.115327
+2024-11-18 02:46:08,320 - INFO - Training Batch 1500: Loss = 0.118565
+2024-11-18 02:46:08,646 - INFO - Training Batch 1600: Loss = 0.103387
+2024-11-18 02:46:08,977 - INFO - Training Batch 1700: Loss = 0.137152
+2024-11-18 02:46:09,316 - INFO - Training Batch 1800: Loss = 0.094015
+2024-11-18 02:46:09,645 - INFO - Training Batch 1900: Loss = 0.099350
+2024-11-18 02:46:09,995 - INFO - Training Batch 2000: Loss = 0.099256
+2024-11-18 02:46:10,316 - INFO - Training Batch 2100: Loss = 0.136155
+2024-11-18 02:46:10,636 - INFO - Training Batch 2200: Loss = 0.123950
+2024-11-18 02:46:10,961 - INFO - Training Batch 2300: Loss = 0.122700
+2024-11-18 02:46:11,310 - INFO - Training Batch 2400: Loss = 0.103330
+2024-11-18 02:46:11,644 - INFO - Training Batch 2500: Loss = 0.123234
+2024-11-18 02:46:11,978 - INFO - Training Batch 2600: Loss = 0.105316
+2024-11-18 02:46:12,323 - INFO - Training Batch 2700: Loss = 0.092460
+2024-11-18 02:46:12,666 - INFO - Training Batch 2800: Loss = 0.115418
+2024-11-18 02:46:12,991 - INFO - Training Batch 2900: Loss = 0.148035
+2024-11-18 02:46:13,635 - INFO - Epoch 24/100
+2024-11-18 02:46:13,635 - INFO - Train Loss: 0.116688
+2024-11-18 02:46:13,635 - INFO - Validation Loss: 0.122911
+2024-11-18 02:46:13,651 - INFO - Training Batch 0: Loss = 0.075043
+2024-11-18 02:46:13,983 - INFO - Training Batch 100: Loss = 0.139053
+2024-11-18 02:46:14,318 - INFO - Training Batch 200: Loss = 0.092096
+2024-11-18 02:46:14,641 - INFO - Training Batch 300: Loss = 0.096435
+2024-11-18 02:46:14,975 - INFO - Training Batch 400: Loss = 0.097928
+2024-11-18 02:46:15,315 - INFO - Training Batch 500: Loss = 0.123954
+2024-11-18 02:46:15,651 - INFO - Training Batch 600: Loss = 0.115814
+2024-11-18 02:46:15,992 - INFO - Training Batch 700: Loss = 0.101468
+2024-11-18 02:46:16,342 - INFO - Training Batch 800: Loss = 0.109190
+2024-11-18 02:46:16,689 - INFO - Training Batch 900: Loss = 0.125628
+2024-11-18 02:46:17,022 - INFO - Training Batch 1000: Loss = 0.117302
+2024-11-18 02:46:17,345 - INFO - Training Batch 1100: Loss = 0.119984
+2024-11-18 02:46:17,688 - INFO - Training Batch 1200: Loss = 0.085885
+2024-11-18 02:46:18,012 - INFO - Training Batch 1300: Loss = 0.134667
+2024-11-18 02:46:18,362 - INFO - Training Batch 1400: Loss = 0.104192
+2024-11-18 02:46:18,705 - INFO - Training Batch 1500: Loss = 0.152812
+2024-11-18 02:46:19,040 - INFO - Training Batch 1600: Loss = 0.121224
+2024-11-18 02:46:19,369 - INFO - Training Batch 1700: Loss = 0.102685
+2024-11-18 02:46:19,705 - INFO - Training Batch 1800: Loss = 0.166712
+2024-11-18 02:46:20,036 - INFO - Training Batch 1900: Loss = 0.090225
+2024-11-18 02:46:20,364 - INFO - Training Batch 2000: Loss = 0.105560
+2024-11-18 02:46:20,746 - INFO - Training Batch 2100: Loss = 0.101376
+2024-11-18 02:46:21,159 - INFO - Training Batch 2200: Loss = 0.133461
+2024-11-18 02:46:21,492 - INFO - Training Batch 2300: Loss = 0.102716
+2024-11-18 02:46:21,834 - INFO - Training Batch 2400: Loss = 0.099230
+2024-11-18 02:46:22,150 - INFO - Training Batch 2500: Loss = 0.111008
+2024-11-18 02:46:22,490 - INFO - Training Batch 2600: Loss = 0.101540
+2024-11-18 02:46:22,843 - INFO - Training Batch 2700: Loss = 0.127156
+2024-11-18 02:46:23,232 - INFO - Training Batch 2800: Loss = 0.091196
+2024-11-18 02:46:23,655 - INFO - Training Batch 2900: Loss = 0.109381
+2024-11-18 02:46:24,389 - INFO - Epoch 25/100
+2024-11-18 02:46:24,389 - INFO - Train Loss: 0.115073
+2024-11-18 02:46:24,389 - INFO - Validation Loss: 0.114621
+2024-11-18 02:46:24,407 - INFO - Training Batch 0: Loss = 0.116981
+2024-11-18 02:46:24,836 - INFO - Training Batch 100: Loss = 0.088872
+2024-11-18 02:46:25,169 - INFO - Training Batch 200: Loss = 0.152713
+2024-11-18 02:46:25,493 - INFO - Training Batch 300: Loss = 0.107674
+2024-11-18 02:46:25,825 - INFO - Training Batch 400: Loss = 0.121898
+2024-11-18 02:46:26,152 - INFO - Training Batch 500: Loss = 0.118356
+2024-11-18 02:46:26,489 - INFO - Training Batch 600: Loss = 0.113088
+2024-11-18 02:46:26,828 - INFO - Training Batch 700: Loss = 0.131577
+2024-11-18 02:46:27,170 - INFO - Training Batch 800: Loss = 0.129501
+2024-11-18 02:46:27,513 - INFO - Training Batch 900: Loss = 0.141297
+2024-11-18 02:46:27,858 - INFO - Training Batch 1000: Loss = 0.113649
+2024-11-18 02:46:28,186 - INFO - Training Batch 1100: Loss = 0.143705
+2024-11-18 02:46:28,526 - INFO - Training Batch 1200: Loss = 0.131675
+2024-11-18 02:46:28,851 - INFO - Training Batch 1300: Loss = 0.089759
+2024-11-18 02:46:29,171 - INFO - Training Batch 1400: Loss = 0.123487
+2024-11-18 02:46:29,511 - INFO - Training Batch 1500: Loss = 0.131969
+2024-11-18 02:46:29,836 - INFO - Training Batch 1600: Loss = 0.119975
+2024-11-18 02:46:30,171 - INFO - Training Batch 1700: Loss = 0.078687
+2024-11-18 02:46:30,508 - INFO - Training Batch 1800: Loss = 0.110905
+2024-11-18 02:46:30,843 - INFO - Training Batch 1900: Loss = 0.148028
+2024-11-18 02:46:31,177 - INFO - Training Batch 2000: Loss = 0.094767
+2024-11-18 02:46:31,516 - INFO - Training Batch 2100: Loss = 0.104381
+2024-11-18 02:46:31,852 - INFO - Training Batch 2200: Loss = 0.118986
+2024-11-18 02:46:32,173 - INFO - Training Batch 2300: Loss = 0.092683
+2024-11-18 02:46:32,502 - INFO - Training Batch 2400: Loss = 0.092213
+2024-11-18 02:46:32,840 - INFO - Training Batch 2500: Loss = 0.114039
+2024-11-18 02:46:33,183 - INFO - Training Batch 2600: Loss = 0.082500
+2024-11-18 02:46:33,511 - INFO - Training Batch 2700: Loss = 0.078602
+2024-11-18 02:46:33,865 - INFO - Training Batch 2800: Loss = 0.111446
+2024-11-18 02:46:34,294 - INFO - Training Batch 2900: Loss = 0.087639
+2024-11-18 02:46:35,056 - INFO - Epoch 26/100
+2024-11-18 02:46:35,056 - INFO - Train Loss: 0.113904
+2024-11-18 02:46:35,056 - INFO - Validation Loss: 0.115215
+2024-11-18 02:46:35,072 - INFO - Training Batch 0: Loss = 0.080451
+2024-11-18 02:46:35,457 - INFO - Training Batch 100: Loss = 0.136864
+2024-11-18 02:46:35,811 - INFO - Training Batch 200: Loss = 0.128474
+2024-11-18 02:46:36,177 - INFO - Training Batch 300: Loss = 0.086989
+2024-11-18 02:46:36,519 - INFO - Training Batch 400: Loss = 0.116588
+2024-11-18 02:46:36,849 - INFO - Training Batch 500: Loss = 0.084705
+2024-11-18 02:46:37,209 - INFO - Training Batch 600: Loss = 0.135748
+2024-11-18 02:46:37,630 - INFO - Training Batch 700: Loss = 0.116497
+2024-11-18 02:46:38,009 - INFO - Training Batch 800: Loss = 0.087660
+2024-11-18 02:46:38,400 - INFO - Training Batch 900: Loss = 0.134567
+2024-11-18 02:46:38,731 - INFO - Training Batch 1000: Loss = 0.112891
+2024-11-18 02:46:39,073 - INFO - Training Batch 1100: Loss = 0.086788
+2024-11-18 02:46:39,409 - INFO - Training Batch 1200: Loss = 0.130139
+2024-11-18 02:46:39,739 - INFO - Training Batch 1300: Loss = 0.094367
+2024-11-18 02:46:40,070 - INFO - Training Batch 1400: Loss = 0.085737
+2024-11-18 02:46:40,424 - INFO - Training Batch 1500: Loss = 0.142004
+2024-11-18 02:46:40,759 - INFO - Training Batch 1600: Loss = 0.135585
+2024-11-18 02:46:41,087 - INFO - Training Batch 1700: Loss = 0.115324
+2024-11-18 02:46:41,417 - INFO - Training Batch 1800: Loss = 0.111321
+2024-11-18 02:46:41,760 - INFO - Training Batch 1900: Loss = 0.138437
+2024-11-18 02:46:42,105 - INFO - Training Batch 2000: Loss = 0.082523
+2024-11-18 02:46:42,441 - INFO - Training Batch 2100: Loss = 0.072178
+2024-11-18 02:46:42,797 - INFO - Training Batch 2200: Loss = 0.122972
+2024-11-18 02:46:43,145 - INFO - Training Batch 2300: Loss = 0.109032
+2024-11-18 02:46:43,476 - INFO - Training Batch 2400: Loss = 0.128971
+2024-11-18 02:46:43,822 - INFO - Training Batch 2500: Loss = 0.098576
+2024-11-18 02:46:44,160 - INFO - Training Batch 2600: Loss = 0.112018
+2024-11-18 02:46:44,506 - INFO - Training Batch 2700: Loss = 0.087570
+2024-11-18 02:46:44,860 - INFO - Training Batch 2800: Loss = 0.110380
+2024-11-18 02:46:45,210 - INFO - Training Batch 2900: Loss = 0.120668
+2024-11-18 02:46:45,858 - INFO - Epoch 27/100
+2024-11-18 02:46:45,858 - INFO - Train Loss: 0.113057
+2024-11-18 02:46:45,858 - INFO - Validation Loss: 0.121178
+2024-11-18 02:46:45,873 - INFO - Training Batch 0: Loss = 0.106571
+2024-11-18 02:46:46,216 - INFO - Training Batch 100: Loss = 0.123571
+2024-11-18 02:46:46,567 - INFO - Training Batch 200: Loss = 0.138219
+2024-11-18 02:46:46,921 - INFO - Training Batch 300: Loss = 0.102215
+2024-11-18 02:46:47,275 - INFO - Training Batch 400: Loss = 0.118094
+2024-11-18 02:46:47,616 - INFO - Training Batch 500: Loss = 0.127889
+2024-11-18 02:46:47,976 - INFO - Training Batch 600: Loss = 0.103681
+2024-11-18 02:46:48,305 - INFO - Training Batch 700: Loss = 0.124557
+2024-11-18 02:46:48,639 - INFO - Training Batch 800: Loss = 0.093026
+2024-11-18 02:46:48,995 - INFO - Training Batch 900: Loss = 0.093983
+2024-11-18 02:46:49,334 - INFO - Training Batch 1000: Loss = 0.103777
+2024-11-18 02:46:49,685 - INFO - Training Batch 1100: Loss = 0.104107
+2024-11-18 02:46:50,026 - INFO - Training Batch 1200: Loss = 0.111406
+2024-11-18 02:46:50,380 - INFO - Training Batch 1300: Loss = 0.116840
+2024-11-18 02:46:50,719 - INFO - Training Batch 1400: Loss = 0.126989
+2024-11-18 02:46:51,069 - INFO - Training Batch 1500: Loss = 0.087241
+2024-11-18 02:46:51,414 - INFO - Training Batch 1600: Loss = 0.092977
+2024-11-18 02:46:51,765 - INFO - Training Batch 1700: Loss = 0.108406
+2024-11-18 02:46:52,109 - INFO - Training Batch 1800: Loss = 0.106050
+2024-11-18 02:46:52,434 - INFO - Training Batch 1900: Loss = 0.163562
+2024-11-18 02:46:52,763 - INFO - Training Batch 2000: Loss = 0.112121
+2024-11-18 02:46:53,122 - INFO - Training Batch 2100: Loss = 0.105127
+2024-11-18 02:46:53,469 - INFO - Training Batch 2200: Loss = 0.075407
+2024-11-18 02:46:53,807 - INFO - Training Batch 2300: Loss = 0.105288
+2024-11-18 02:46:54,149 - INFO - Training Batch 2400: Loss = 0.125625
+2024-11-18 02:46:54,484 - INFO - Training Batch 2500: Loss = 0.126563
+2024-11-18 02:46:54,810 - INFO - Training Batch 2600: Loss = 0.108053
+2024-11-18 02:46:55,147 - INFO - Training Batch 2700: Loss = 0.084109
+2024-11-18 02:46:55,500 - INFO - Training Batch 2800: Loss = 0.108887
+2024-11-18 02:46:55,839 - INFO - Training Batch 2900: Loss = 0.097549
+2024-11-18 02:46:56,477 - INFO - Epoch 28/100
+2024-11-18 02:46:56,477 - INFO - Train Loss: 0.111550
+2024-11-18 02:46:56,477 - INFO - Validation Loss: 0.117378
+2024-11-18 02:46:56,493 - INFO - Training Batch 0: Loss = 0.135186
+2024-11-18 02:46:56,844 - INFO - Training Batch 100: Loss = 0.107502
+2024-11-18 02:46:57,204 - INFO - Training Batch 200: Loss = 0.099784
+2024-11-18 02:46:57,548 - INFO - Training Batch 300: Loss = 0.125405
+2024-11-18 02:46:57,895 - INFO - Training Batch 400: Loss = 0.086349
+2024-11-18 02:46:58,228 - INFO - Training Batch 500: Loss = 0.142957
+2024-11-18 02:46:58,561 - INFO - Training Batch 600: Loss = 0.087590
+2024-11-18 02:46:58,895 - INFO - Training Batch 700: Loss = 0.099197
+2024-11-18 02:46:59,226 - INFO - Training Batch 800: Loss = 0.123409
+2024-11-18 02:46:59,567 - INFO - Training Batch 900: Loss = 0.070277
+2024-11-18 02:46:59,939 - INFO - Training Batch 1000: Loss = 0.114965
+2024-11-18 02:47:00,276 - INFO - Training Batch 1100: Loss = 0.115786
+2024-11-18 02:47:00,602 - INFO - Training Batch 1200: Loss = 0.139162
+2024-11-18 02:47:00,936 - INFO - Training Batch 1300: Loss = 0.086101
+2024-11-18 02:47:01,274 - INFO - Training Batch 1400: Loss = 0.115149
+2024-11-18 02:47:01,630 - INFO - Training Batch 1500: Loss = 0.105755
+2024-11-18 02:47:01,951 - INFO - Training Batch 1600: Loss = 0.113452
+2024-11-18 02:47:02,294 - INFO - Training Batch 1700: Loss = 0.091655
+2024-11-18 02:47:02,628 - INFO - Training Batch 1800: Loss = 0.088767
+2024-11-18 02:47:02,974 - INFO - Training Batch 1900: Loss = 0.114833
+2024-11-18 02:47:03,324 - INFO - Training Batch 2000: Loss = 0.130699
+2024-11-18 02:47:03,663 - INFO - Training Batch 2100: Loss = 0.116227
+2024-11-18 02:47:04,002 - INFO - Training Batch 2200: Loss = 0.119836
+2024-11-18 02:47:04,364 - INFO - Training Batch 2300: Loss = 0.109970
+2024-11-18 02:47:04,693 - INFO - Training Batch 2400: Loss = 0.104643
+2024-11-18 02:47:05,038 - INFO - Training Batch 2500: Loss = 0.142063
+2024-11-18 02:47:05,383 - INFO - Training Batch 2600: Loss = 0.079815
+2024-11-18 02:47:05,738 - INFO - Training Batch 2700: Loss = 0.191656
+2024-11-18 02:47:06,078 - INFO - Training Batch 2800: Loss = 0.122234
+2024-11-18 02:47:06,425 - INFO - Training Batch 2900: Loss = 0.127293
+2024-11-18 02:47:07,061 - INFO - Epoch 29/100
+2024-11-18 02:47:07,061 - INFO - Train Loss: 0.110628
+2024-11-18 02:47:07,061 - INFO - Validation Loss: 0.115817
+2024-11-18 02:47:07,076 - INFO - Training Batch 0: Loss = 0.150285
+2024-11-18 02:47:07,421 - INFO - Training Batch 100: Loss = 0.113961
+2024-11-18 02:47:07,758 - INFO - Training Batch 200: Loss = 0.148181
+2024-11-18 02:47:08,096 - INFO - Training Batch 300: Loss = 0.098105
+2024-11-18 02:47:08,432 - INFO - Training Batch 400: Loss = 0.115755
+2024-11-18 02:47:08,814 - INFO - Training Batch 500: Loss = 0.105240
+2024-11-18 02:47:09,227 - INFO - Training Batch 600: Loss = 0.078645
+2024-11-18 02:47:09,604 - INFO - Training Batch 700: Loss = 0.095931
+2024-11-18 02:47:09,966 - INFO - Training Batch 800: Loss = 0.121989
+2024-11-18 02:47:10,309 - INFO - Training Batch 900: Loss = 0.139918
+2024-11-18 02:47:10,661 - INFO - Training Batch 1000: Loss = 0.100194
+2024-11-18 02:47:11,028 - INFO - Training Batch 1100: Loss = 0.098753
+2024-11-18 02:47:11,377 - INFO - Training Batch 1200: Loss = 0.123677
+2024-11-18 02:47:11,716 - INFO - Training Batch 1300: Loss = 0.147877
+2024-11-18 02:47:12,052 - INFO - Training Batch 1400: Loss = 0.102944
+2024-11-18 02:47:12,381 - INFO - Training Batch 1500: Loss = 0.085089
+2024-11-18 02:47:12,730 - INFO - Training Batch 1600: Loss = 0.113772
+2024-11-18 02:47:13,073 - INFO - Training Batch 1700: Loss = 0.122117
+2024-11-18 02:47:13,417 - INFO - Training Batch 1800: Loss = 0.113308
+2024-11-18 02:47:13,767 - INFO - Training Batch 1900: Loss = 0.096694
+2024-11-18 02:47:14,113 - INFO - Training Batch 2000: Loss = 0.102141
+2024-11-18 02:47:14,455 - INFO - Training Batch 2100: Loss = 0.101614
+2024-11-18 02:47:14,817 - INFO - Training Batch 2200: Loss = 0.110057
+2024-11-18 02:47:15,172 - INFO - Training Batch 2300: Loss = 0.087599
+2024-11-18 02:47:15,521 - INFO - Training Batch 2400: Loss = 0.129210
+2024-11-18 02:47:15,865 - INFO - Training Batch 2500: Loss = 0.096553
+2024-11-18 02:47:16,205 - INFO - Training Batch 2600: Loss = 0.088022
+2024-11-18 02:47:16,556 - INFO - Training Batch 2700: Loss = 0.098629
+2024-11-18 02:47:16,898 - INFO - Training Batch 2800: Loss = 0.101615
+2024-11-18 02:47:17,242 - INFO - Training Batch 2900: Loss = 0.086864
+2024-11-18 02:47:17,894 - INFO - Epoch 30/100
+2024-11-18 02:47:17,894 - INFO - Train Loss: 0.110216
+2024-11-18 02:47:17,894 - INFO - Validation Loss: 0.114939
+2024-11-18 02:47:17,909 - INFO - Training Batch 0: Loss = 0.105193
+2024-11-18 02:47:18,277 - INFO - Training Batch 100: Loss = 0.139074
+2024-11-18 02:47:18,610 - INFO - Training Batch 200: Loss = 0.081796
+2024-11-18 02:47:18,946 - INFO - Training Batch 300: Loss = 0.105597
+2024-11-18 02:47:19,270 - INFO - Training Batch 400: Loss = 0.081860
+2024-11-18 02:47:19,621 - INFO - Training Batch 500: Loss = 0.090478
+2024-11-18 02:47:19,952 - INFO - Training Batch 600: Loss = 0.089990
+2024-11-18 02:47:20,290 - INFO - Training Batch 700: Loss = 0.143960
+2024-11-18 02:47:20,608 - INFO - Training Batch 800: Loss = 0.080496
+2024-11-18 02:47:20,951 - INFO - Training Batch 900: Loss = 0.108230
+2024-11-18 02:47:21,285 - INFO - Training Batch 1000: Loss = 0.087607
+2024-11-18 02:47:21,619 - INFO - Training Batch 1100: Loss = 0.107719
+2024-11-18 02:47:21,967 - INFO - Training Batch 1200: Loss = 0.127921
+2024-11-18 02:47:22,311 - INFO - Training Batch 1300: Loss = 0.112736
+2024-11-18 02:47:22,643 - INFO - Training Batch 1400: Loss = 0.102570
+2024-11-18 02:47:22,974 - INFO - Training Batch 1500: Loss = 0.151136
+2024-11-18 02:47:23,313 - INFO - Training Batch 1600: Loss = 0.113356
+2024-11-18 02:47:23,651 - INFO - Training Batch 1700: Loss = 0.125389
+2024-11-18 02:47:24,005 - INFO - Training Batch 1800: Loss = 0.092898
+2024-11-18 02:47:24,341 - INFO - Training Batch 1900: Loss = 0.106490
+2024-11-18 02:47:24,692 - INFO - Training Batch 2000: Loss = 0.130530
+2024-11-18 02:47:25,027 - INFO - Training Batch 2100: Loss = 0.118501
+2024-11-18 02:47:25,375 - INFO - Training Batch 2200: Loss = 0.108438
+2024-11-18 02:47:25,716 - INFO - Training Batch 2300: Loss = 0.104903
+2024-11-18 02:47:26,077 - INFO - Training Batch 2400: Loss = 0.118074
+2024-11-18 02:47:26,440 - INFO - Training Batch 2500: Loss = 0.104282
+2024-11-18 02:47:26,777 - INFO - Training Batch 2600: Loss = 0.113285
+2024-11-18 02:47:27,120 - INFO - Training Batch 2700: Loss = 0.113859
+2024-11-18 02:47:27,459 - INFO - Training Batch 2800: Loss = 0.105256
+2024-11-18 02:47:27,797 - INFO - Training Batch 2900: Loss = 0.085743
+2024-11-18 02:47:28,499 - INFO - Epoch 31/100
+2024-11-18 02:47:28,500 - INFO - Train Loss: 0.109635
+2024-11-18 02:47:28,500 - INFO - Validation Loss: 0.115118
+2024-11-18 02:47:28,514 - INFO - Training Batch 0: Loss = 0.087433
+2024-11-18 02:47:28,856 - INFO - Training Batch 100: Loss = 0.112225
+2024-11-18 02:47:29,204 - INFO - Training Batch 200: Loss = 0.163023
+2024-11-18 02:47:29,531 - INFO - Training Batch 300: Loss = 0.109759
+2024-11-18 02:47:29,880 - INFO - Training Batch 400: Loss = 0.128026
+2024-11-18 02:47:30,223 - INFO - Training Batch 500: Loss = 0.165854
+2024-11-18 02:47:30,578 - INFO - Training Batch 600: Loss = 0.089185
+2024-11-18 02:47:30,914 - INFO - Training Batch 700: Loss = 0.139079
+2024-11-18 02:47:31,256 - INFO - Training Batch 800: Loss = 0.115355
+2024-11-18 02:47:31,585 - INFO - Training Batch 900: Loss = 0.111742
+2024-11-18 02:47:31,934 - INFO - Training Batch 1000: Loss = 0.102457
+2024-11-18 02:47:32,257 - INFO - Training Batch 1100: Loss = 0.081309
+2024-11-18 02:47:32,590 - INFO - Training Batch 1200: Loss = 0.117662
+2024-11-18 02:47:32,949 - INFO - Training Batch 1300: Loss = 0.127190
+2024-11-18 02:47:33,284 - INFO - Training Batch 1400: Loss = 0.144781
+2024-11-18 02:47:33,621 - INFO - Training Batch 1500: Loss = 0.084110
+2024-11-18 02:47:33,959 - INFO - Training Batch 1600: Loss = 0.135171
+2024-11-18 02:47:34,292 - INFO - Training Batch 1700: Loss = 0.097238
+2024-11-18 02:47:34,626 - INFO - Training Batch 1800: Loss = 0.086141
+2024-11-18 02:47:34,983 - INFO - Training Batch 1900: Loss = 0.076471
+2024-11-18 02:47:35,326 - INFO - Training Batch 2000: Loss = 0.125382
+2024-11-18 02:47:35,668 - INFO - Training Batch 2100: Loss = 0.119766
+2024-11-18 02:47:35,995 - INFO - Training Batch 2200: Loss = 0.112448
+2024-11-18 02:47:36,347 - INFO - Training Batch 2300: Loss = 0.077837
+2024-11-18 02:47:36,688 - INFO - Training Batch 2400: Loss = 0.086400
+2024-11-18 02:47:37,046 - INFO - Training Batch 2500: Loss = 0.095146
+2024-11-18 02:47:37,426 - INFO - Training Batch 2600: Loss = 0.144008
+2024-11-18 02:47:37,776 - INFO - Training Batch 2700: Loss = 0.114648
+2024-11-18 02:47:38,120 - INFO - Training Batch 2800: Loss = 0.088091
+2024-11-18 02:47:38,457 - INFO - Training Batch 2900: Loss = 0.110973
+2024-11-18 02:47:39,071 - INFO - Epoch 32/100
+2024-11-18 02:47:39,071 - INFO - Train Loss: 0.109045
+2024-11-18 02:47:39,071 - INFO - Validation Loss: 0.118544
+2024-11-18 02:47:39,089 - INFO - Training Batch 0: Loss = 0.089474
+2024-11-18 02:47:39,469 - INFO - Training Batch 100: Loss = 0.134089
+2024-11-18 02:47:39,848 - INFO - Training Batch 200: Loss = 0.115056
+2024-11-18 02:47:40,215 - INFO - Training Batch 300: Loss = 0.122155
+2024-11-18 02:47:40,609 - INFO - Training Batch 400: Loss = 0.104787
+2024-11-18 02:47:40,940 - INFO - Training Batch 500: Loss = 0.089628
+2024-11-18 02:47:41,276 - INFO - Training Batch 600: Loss = 0.137433
+2024-11-18 02:47:41,626 - INFO - Training Batch 700: Loss = 0.080755
+2024-11-18 02:47:41,960 - INFO - Training Batch 800: Loss = 0.118737
+2024-11-18 02:47:42,312 - INFO - Training Batch 900: Loss = 0.086694
+2024-11-18 02:47:42,645 - INFO - Training Batch 1000: Loss = 0.111059
+2024-11-18 02:47:42,975 - INFO - Training Batch 1100: Loss = 0.124756
+2024-11-18 02:47:43,315 - INFO - Training Batch 1200: Loss = 0.130557
+2024-11-18 02:47:43,644 - INFO - Training Batch 1300: Loss = 0.076838
+2024-11-18 02:47:43,989 - INFO - Training Batch 1400: Loss = 0.105564
+2024-11-18 02:47:44,318 - INFO - Training Batch 1500: Loss = 0.119526
+2024-11-18 02:47:44,641 - INFO - Training Batch 1600: Loss = 0.103397
+2024-11-18 02:47:44,976 - INFO - Training Batch 1700: Loss = 0.083084
+2024-11-18 02:47:45,315 - INFO - Training Batch 1800: Loss = 0.095637
+2024-11-18 02:47:45,642 - INFO - Training Batch 1900: Loss = 0.111828
+2024-11-18 02:47:45,995 - INFO - Training Batch 2000: Loss = 0.095977
+2024-11-18 02:47:46,345 - INFO - Training Batch 2100: Loss = 0.112418
+2024-11-18 02:47:46,697 - INFO - Training Batch 2200: Loss = 0.098463
+2024-11-18 02:47:47,037 - INFO - Training Batch 2300: Loss = 0.103062
+2024-11-18 02:47:47,363 - INFO - Training Batch 2400: Loss = 0.112529
+2024-11-18 02:47:47,713 - INFO - Training Batch 2500: Loss = 0.135080
+2024-11-18 02:47:48,067 - INFO - Training Batch 2600: Loss = 0.132446
+2024-11-18 02:47:48,398 - INFO - Training Batch 2700: Loss = 0.117976
+2024-11-18 02:47:48,718 - INFO - Training Batch 2800: Loss = 0.093489
+2024-11-18 02:47:49,058 - INFO - Training Batch 2900: Loss = 0.089258
+2024-11-18 02:47:49,680 - INFO - Epoch 33/100
+2024-11-18 02:47:49,680 - INFO - Train Loss: 0.108514
+2024-11-18 02:47:49,680 - INFO - Validation Loss: 0.115907
+2024-11-18 02:47:49,694 - INFO - Training Batch 0: Loss = 0.114289
+2024-11-18 02:47:50,044 - INFO - Training Batch 100: Loss = 0.118933
+2024-11-18 02:47:50,385 - INFO - Training Batch 200: Loss = 0.155236
+2024-11-18 02:47:50,726 - INFO - Training Batch 300: Loss = 0.114979
+2024-11-18 02:47:51,053 - INFO - Training Batch 400: Loss = 0.096371
+2024-11-18 02:47:51,389 - INFO - Training Batch 500: Loss = 0.127838
+2024-11-18 02:47:51,724 - INFO - Training Batch 600: Loss = 0.081846
+2024-11-18 02:47:52,060 - INFO - Training Batch 700: Loss = 0.112652
+2024-11-18 02:47:52,399 - INFO - Training Batch 800: Loss = 0.104832
+2024-11-18 02:47:52,744 - INFO - Training Batch 900: Loss = 0.087410
+2024-11-18 02:47:53,080 - INFO - Training Batch 1000: Loss = 0.106093
+2024-11-18 02:47:53,417 - INFO - Training Batch 1100: Loss = 0.092966
+2024-11-18 02:47:53,740 - INFO - Training Batch 1200: Loss = 0.091947
+2024-11-18 02:47:54,084 - INFO - Training Batch 1300: Loss = 0.077071
+2024-11-18 02:47:54,422 - INFO - Training Batch 1400: Loss = 0.123290
+2024-11-18 02:47:54,781 - INFO - Training Batch 1500: Loss = 0.117181
+2024-11-18 02:47:55,111 - INFO - Training Batch 1600: Loss = 0.090113
+2024-11-18 02:47:55,446 - INFO - Training Batch 1700: Loss = 0.149733
+2024-11-18 02:47:55,783 - INFO - Training Batch 1800: Loss = 0.077946
+2024-11-18 02:47:56,123 - INFO - Training Batch 1900: Loss = 0.094910
+2024-11-18 02:47:56,447 - INFO - Training Batch 2000: Loss = 0.112710
+2024-11-18 02:47:56,788 - INFO - Training Batch 2100: Loss = 0.094194
+2024-11-18 02:47:57,131 - INFO - Training Batch 2200: Loss = 0.153379
+2024-11-18 02:47:57,468 - INFO - Training Batch 2300: Loss = 0.096077
+2024-11-18 02:47:57,813 - INFO - Training Batch 2400: Loss = 0.095948
+2024-11-18 02:47:58,141 - INFO - Training Batch 2500: Loss = 0.152724
+2024-11-18 02:47:58,480 - INFO - Training Batch 2600: Loss = 0.099015
+2024-11-18 02:47:58,815 - INFO - Training Batch 2700: Loss = 0.090706
+2024-11-18 02:47:59,159 - INFO - Training Batch 2800: Loss = 0.119580
+2024-11-18 02:47:59,494 - INFO - Training Batch 2900: Loss = 0.104591
+2024-11-18 02:48:00,106 - INFO - Epoch 34/100
+2024-11-18 02:48:00,106 - INFO - Train Loss: 0.107835
+2024-11-18 02:48:00,106 - INFO - Validation Loss: 0.116630
+2024-11-18 02:48:00,128 - INFO - Training Batch 0: Loss = 0.141381
+2024-11-18 02:48:00,468 - INFO - Training Batch 100: Loss = 0.084369
+2024-11-18 02:48:00,803 - INFO - Training Batch 200: Loss = 0.108390
+2024-11-18 02:48:01,154 - INFO - Training Batch 300: Loss = 0.122526
+2024-11-18 02:48:01,509 - INFO - Training Batch 400: Loss = 0.102068
+2024-11-18 02:48:01,845 - INFO - Training Batch 500: Loss = 0.099667
+2024-11-18 02:48:02,187 - INFO - Training Batch 600: Loss = 0.107830
+2024-11-18 02:48:02,515 - INFO - Training Batch 700: Loss = 0.090409
+2024-11-18 02:48:02,853 - INFO - Training Batch 800: Loss = 0.117404
+2024-11-18 02:48:03,179 - INFO - Training Batch 900: Loss = 0.105707
+2024-11-18 02:48:03,536 - INFO - Training Batch 1000: Loss = 0.109062
+2024-11-18 02:48:03,857 - INFO - Training Batch 1100: Loss = 0.128569
+2024-11-18 02:48:04,214 - INFO - Training Batch 1200: Loss = 0.160479
+2024-11-18 02:48:04,560 - INFO - Training Batch 1300: Loss = 0.082004
+2024-11-18 02:48:04,892 - INFO - Training Batch 1400: Loss = 0.152941
+2024-11-18 02:48:05,228 - INFO - Training Batch 1500: Loss = 0.123737
+2024-11-18 02:48:05,579 - INFO - Training Batch 1600: Loss = 0.104650
+2024-11-18 02:48:05,932 - INFO - Training Batch 1700: Loss = 0.103163
+2024-11-18 02:48:06,281 - INFO - Training Batch 1800: Loss = 0.113026
+2024-11-18 02:48:06,622 - INFO - Training Batch 1900: Loss = 0.080524
+2024-11-18 02:48:06,954 - INFO - Training Batch 2000: Loss = 0.111452
+2024-11-18 02:48:07,304 - INFO - Training Batch 2100: Loss = 0.106982
+2024-11-18 02:48:07,656 - INFO - Training Batch 2200: Loss = 0.080091
+2024-11-18 02:48:08,001 - INFO - Training Batch 2300: Loss = 0.095928
+2024-11-18 02:48:08,332 - INFO - Training Batch 2400: Loss = 0.088324
+2024-11-18 02:48:08,666 - INFO - Training Batch 2500: Loss = 0.134911
+2024-11-18 02:48:08,997 - INFO - Training Batch 2600: Loss = 0.123839
+2024-11-18 02:48:09,338 - INFO - Training Batch 2700: Loss = 0.145004
+2024-11-18 02:48:09,679 - INFO - Training Batch 2800: Loss = 0.103850
+2024-11-18 02:48:10,033 - INFO - Training Batch 2900: Loss = 0.091566
+2024-11-18 02:48:10,655 - INFO - Epoch 35/100
+2024-11-18 02:48:10,655 - INFO - Train Loss: 0.107286
+2024-11-18 02:48:10,655 - INFO - Validation Loss: 0.117382
+2024-11-18 02:48:10,676 - INFO - Training Batch 0: Loss = 0.094617
+2024-11-18 02:48:11,045 - INFO - Training Batch 100: Loss = 0.128354
+2024-11-18 02:48:11,410 - INFO - Training Batch 200: Loss = 0.104852
+2024-11-18 02:48:11,749 - INFO - Training Batch 300: Loss = 0.082669
+2024-11-18 02:48:12,089 - INFO - Training Batch 400: Loss = 0.095818
+2024-11-18 02:48:12,448 - INFO - Training Batch 500: Loss = 0.074770
+2024-11-18 02:48:12,787 - INFO - Training Batch 600: Loss = 0.136934
+2024-11-18 02:48:13,122 - INFO - Training Batch 700: Loss = 0.102691
+2024-11-18 02:48:13,457 - INFO - Training Batch 800: Loss = 0.129526
+2024-11-18 02:48:13,793 - INFO - Training Batch 900: Loss = 0.120145
+2024-11-18 02:48:14,124 - INFO - Training Batch 1000: Loss = 0.099297
+2024-11-18 02:48:14,472 - INFO - Training Batch 1100: Loss = 0.088176
+2024-11-18 02:48:14,802 - INFO - Training Batch 1200: Loss = 0.111146
+2024-11-18 02:48:15,136 - INFO - Training Batch 1300: Loss = 0.086771
+2024-11-18 02:48:15,465 - INFO - Training Batch 1400: Loss = 0.104203
+2024-11-18 02:48:15,805 - INFO - Training Batch 1500: Loss = 0.091754
+2024-11-18 02:48:16,147 - INFO - Training Batch 1600: Loss = 0.103223
+2024-11-18 02:48:16,500 - INFO - Training Batch 1700: Loss = 0.134439
+2024-11-18 02:48:16,848 - INFO - Training Batch 1800: Loss = 0.109788
+2024-11-18 02:48:17,189 - INFO - Training Batch 1900: Loss = 0.146580
+2024-11-18 02:48:17,526 - INFO - Training Batch 2000: Loss = 0.145806
+2024-11-18 02:48:17,856 - INFO - Training Batch 2100: Loss = 0.103368
+2024-11-18 02:48:18,199 - INFO - Training Batch 2200: Loss = 0.080483
+2024-11-18 02:48:18,545 - INFO - Training Batch 2300: Loss = 0.124045
+2024-11-18 02:48:18,894 - INFO - Training Batch 2400: Loss = 0.104902
+2024-11-18 02:48:19,234 - INFO - Training Batch 2500: Loss = 0.095405
+2024-11-18 02:48:19,560 - INFO - Training Batch 2600: Loss = 0.101705
+2024-11-18 02:48:19,902 - INFO - Training Batch 2700: Loss = 0.128199
+2024-11-18 02:48:20,247 - INFO - Training Batch 2800: Loss = 0.144394
+2024-11-18 02:48:20,590 - INFO - Training Batch 2900: Loss = 0.101817
+2024-11-18 02:48:21,217 - INFO - Epoch 36/100
+2024-11-18 02:48:21,218 - INFO - Train Loss: 0.107488
+2024-11-18 02:48:21,218 - INFO - Validation Loss: 0.117014
+2024-11-18 02:48:21,240 - INFO - Training Batch 0: Loss = 0.064235
+2024-11-18 02:48:21,590 - INFO - Training Batch 100: Loss = 0.093315
+2024-11-18 02:48:21,917 - INFO - Training Batch 200: Loss = 0.114373
+2024-11-18 02:48:22,247 - INFO - Training Batch 300: Loss = 0.088284
+2024-11-18 02:48:22,586 - INFO - Training Batch 400: Loss = 0.113605
+2024-11-18 02:48:22,930 - INFO - Training Batch 500: Loss = 0.083773
+2024-11-18 02:48:23,282 - INFO - Training Batch 600: Loss = 0.113064
+2024-11-18 02:48:23,614 - INFO - Training Batch 700: Loss = 0.107257
+2024-11-18 02:48:23,949 - INFO - Training Batch 800: Loss = 0.099812
+2024-11-18 02:48:24,283 - INFO - Training Batch 900: Loss = 0.104118
+2024-11-18 02:48:24,608 - INFO - Training Batch 1000: Loss = 0.094802
+2024-11-18 02:48:24,940 - INFO - Training Batch 1100: Loss = 0.116600
+2024-11-18 02:48:25,289 - INFO - Training Batch 1200: Loss = 0.101649
+2024-11-18 02:48:25,632 - INFO - Training Batch 1300: Loss = 0.082941
+2024-11-18 02:48:25,964 - INFO - Training Batch 1400: Loss = 0.083624
+2024-11-18 02:48:26,301 - INFO - Training Batch 1500: Loss = 0.122713
+2024-11-18 02:48:26,641 - INFO - Training Batch 1600: Loss = 0.099000
+2024-11-18 02:48:26,983 - INFO - Training Batch 1700: Loss = 0.140662
+2024-11-18 02:48:27,328 - INFO - Training Batch 1800: Loss = 0.088349
+2024-11-18 02:48:27,668 - INFO - Training Batch 1900: Loss = 0.096579
+2024-11-18 02:48:28,008 - INFO - Training Batch 2000: Loss = 0.089196
+2024-11-18 02:48:28,340 - INFO - Training Batch 2100: Loss = 0.090504
+2024-11-18 02:48:28,660 - INFO - Training Batch 2200: Loss = 0.144032
+2024-11-18 02:48:28,997 - INFO - Training Batch 2300: Loss = 0.098936
+2024-11-18 02:48:29,336 - INFO - Training Batch 2400: Loss = 0.126743
+2024-11-18 02:48:29,680 - INFO - Training Batch 2500: Loss = 0.100890
+2024-11-18 02:48:30,020 - INFO - Training Batch 2600: Loss = 0.100424
+2024-11-18 02:48:30,361 - INFO - Training Batch 2700: Loss = 0.089888
+2024-11-18 02:48:30,692 - INFO - Training Batch 2800: Loss = 0.091467
+2024-11-18 02:48:31,024 - INFO - Training Batch 2900: Loss = 0.095539
+2024-11-18 02:48:31,634 - INFO - Epoch 37/100
+2024-11-18 02:48:31,634 - INFO - Train Loss: 0.106867
+2024-11-18 02:48:31,634 - INFO - Validation Loss: 0.113994
+2024-11-18 02:48:31,660 - INFO - Training Batch 0: Loss = 0.108511
+2024-11-18 02:48:32,034 - INFO - Training Batch 100: Loss = 0.129337
+2024-11-18 02:48:32,387 - INFO - Training Batch 200: Loss = 0.094824
+2024-11-18 02:48:32,719 - INFO - Training Batch 300: Loss = 0.086148
+2024-11-18 02:48:33,065 - INFO - Training Batch 400: Loss = 0.101760
+2024-11-18 02:48:33,417 - INFO - Training Batch 500: Loss = 0.101475
+2024-11-18 02:48:33,752 - INFO - Training Batch 600: Loss = 0.132124
+2024-11-18 02:48:34,097 - INFO - Training Batch 700: Loss = 0.100868
+2024-11-18 02:48:34,445 - INFO - Training Batch 800: Loss = 0.102569
+2024-11-18 02:48:34,784 - INFO - Training Batch 900: Loss = 0.112291
+2024-11-18 02:48:35,126 - INFO - Training Batch 1000: Loss = 0.140361
+2024-11-18 02:48:35,449 - INFO - Training Batch 1100: Loss = 0.104969
+2024-11-18 02:48:35,798 - INFO - Training Batch 1200: Loss = 0.092272
+2024-11-18 02:48:36,174 - INFO - Training Batch 1300: Loss = 0.083776
+2024-11-18 02:48:36,535 - INFO - Training Batch 1400: Loss = 0.089662
+2024-11-18 02:48:36,873 - INFO - Training Batch 1500: Loss = 0.114763
+2024-11-18 02:48:37,212 - INFO - Training Batch 1600: Loss = 0.097215
+2024-11-18 02:48:37,546 - INFO - Training Batch 1700: Loss = 0.100018
+2024-11-18 02:48:37,883 - INFO - Training Batch 1800: Loss = 0.080621
+2024-11-18 02:48:38,223 - INFO - Training Batch 1900: Loss = 0.114066
+2024-11-18 02:48:38,575 - INFO - Training Batch 2000: Loss = 0.132167
+2024-11-18 02:48:38,916 - INFO - Training Batch 2100: Loss = 0.103232
+2024-11-18 02:48:39,257 - INFO - Training Batch 2200: Loss = 0.104997
+2024-11-18 02:48:39,594 - INFO - Training Batch 2300: Loss = 0.093173
+2024-11-18 02:48:39,941 - INFO - Training Batch 2400: Loss = 0.102400
+2024-11-18 02:48:40,289 - INFO - Training Batch 2500: Loss = 0.095277
+2024-11-18 02:48:40,636 - INFO - Training Batch 2600: Loss = 0.102616
+2024-11-18 02:48:40,990 - INFO - Training Batch 2700: Loss = 0.109306
+2024-11-18 02:48:41,325 - INFO - Training Batch 2800: Loss = 0.127730
+2024-11-18 02:48:41,671 - INFO - Training Batch 2900: Loss = 0.100055
+2024-11-18 02:48:42,374 - INFO - Epoch 38/100
+2024-11-18 02:48:42,374 - INFO - Train Loss: 0.106610
+2024-11-18 02:48:42,374 - INFO - Validation Loss: 0.116449
+2024-11-18 02:48:42,389 - INFO - Training Batch 0: Loss = 0.105211
+2024-11-18 02:48:42,781 - INFO - Training Batch 100: Loss = 0.111748
+2024-11-18 02:48:43,122 - INFO - Training Batch 200: Loss = 0.118799
+2024-11-18 02:48:43,455 - INFO - Training Batch 300: Loss = 0.077996
+2024-11-18 02:48:43,787 - INFO - Training Batch 400: Loss = 0.100403
+2024-11-18 02:48:44,114 - INFO - Training Batch 500: Loss = 0.090723
+2024-11-18 02:48:44,454 - INFO - Training Batch 600: Loss = 0.102267
+2024-11-18 02:48:44,812 - INFO - Training Batch 700: Loss = 0.107090
+2024-11-18 02:48:45,162 - INFO - Training Batch 800: Loss = 0.106715
+2024-11-18 02:48:45,499 - INFO - Training Batch 900: Loss = 0.094171
+2024-11-18 02:48:45,832 - INFO - Training Batch 1000: Loss = 0.096349
+2024-11-18 02:48:46,186 - INFO - Training Batch 1100: Loss = 0.101509
+2024-11-18 02:48:46,528 - INFO - Training Batch 1200: Loss = 0.142552
+2024-11-18 02:48:46,864 - INFO - Training Batch 1300: Loss = 0.096396
+2024-11-18 02:48:47,221 - INFO - Training Batch 1400: Loss = 0.099911
+2024-11-18 02:48:47,568 - INFO - Training Batch 1500: Loss = 0.126869
+2024-11-18 02:48:47,909 - INFO - Training Batch 1600: Loss = 0.105630
+2024-11-18 02:48:48,256 - INFO - Training Batch 1700: Loss = 0.137012
+2024-11-18 02:48:48,601 - INFO - Training Batch 1800: Loss = 0.078943
+2024-11-18 02:48:48,942 - INFO - Training Batch 1900: Loss = 0.110604
+2024-11-18 02:48:49,294 - INFO - Training Batch 2000: Loss = 0.077134
+2024-11-18 02:48:49,636 - INFO - Training Batch 2100: Loss = 0.104107
+2024-11-18 02:48:49,972 - INFO - Training Batch 2200: Loss = 0.100120
+2024-11-18 02:48:50,319 - INFO - Training Batch 2300: Loss = 0.135701
+2024-11-18 02:48:50,657 - INFO - Training Batch 2400: Loss = 0.092952
+2024-11-18 02:48:50,988 - INFO - Training Batch 2500: Loss = 0.141814
+2024-11-18 02:48:51,343 - INFO - Training Batch 2600: Loss = 0.099066
+2024-11-18 02:48:51,710 - INFO - Training Batch 2700: Loss = 0.076177
+2024-11-18 02:48:52,052 - INFO - Training Batch 2800: Loss = 0.121589
+2024-11-18 02:48:52,389 - INFO - Training Batch 2900: Loss = 0.094465
+2024-11-18 02:48:53,055 - INFO - Epoch 39/100
+2024-11-18 02:48:53,055 - INFO - Train Loss: 0.106441
+2024-11-18 02:48:53,056 - INFO - Validation Loss: 0.115475
+2024-11-18 02:48:53,070 - INFO - Training Batch 0: Loss = 0.148069
+2024-11-18 02:48:53,422 - INFO - Training Batch 100: Loss = 0.109217
+2024-11-18 02:48:53,779 - INFO - Training Batch 200: Loss = 0.133226
+2024-11-18 02:48:54,136 - INFO - Training Batch 300: Loss = 0.107168
+2024-11-18 02:48:54,489 - INFO - Training Batch 400: Loss = 0.111950
+2024-11-18 02:48:54,824 - INFO - Training Batch 500: Loss = 0.120037
+2024-11-18 02:48:55,169 - INFO - Training Batch 600: Loss = 0.081852
+2024-11-18 02:48:55,506 - INFO - Training Batch 700: Loss = 0.097671
+2024-11-18 02:48:55,847 - INFO - Training Batch 800: Loss = 0.085090
+2024-11-18 02:48:56,217 - INFO - Training Batch 900: Loss = 0.105562
+2024-11-18 02:48:56,568 - INFO - Training Batch 1000: Loss = 0.104588
+2024-11-18 02:48:56,910 - INFO - Training Batch 1100: Loss = 0.101683
+2024-11-18 02:48:57,263 - INFO - Training Batch 1200: Loss = 0.117145
+2024-11-18 02:48:57,603 - INFO - Training Batch 1300: Loss = 0.118420
+2024-11-18 02:48:57,946 - INFO - Training Batch 1400: Loss = 0.093875
+2024-11-18 02:48:58,286 - INFO - Training Batch 1500: Loss = 0.129986
+2024-11-18 02:48:58,618 - INFO - Training Batch 1600: Loss = 0.082370
+2024-11-18 02:48:58,963 - INFO - Training Batch 1700: Loss = 0.079098
+2024-11-18 02:48:59,304 - INFO - Training Batch 1800: Loss = 0.086020
+2024-11-18 02:48:59,640 - INFO - Training Batch 1900: Loss = 0.097734
+2024-11-18 02:48:59,990 - INFO - Training Batch 2000: Loss = 0.125013
+2024-11-18 02:49:00,339 - INFO - Training Batch 2100: Loss = 0.080056
+2024-11-18 02:49:00,685 - INFO - Training Batch 2200: Loss = 0.103101
+2024-11-18 02:49:01,035 - INFO - Training Batch 2300: Loss = 0.130901
+2024-11-18 02:49:01,380 - INFO - Training Batch 2400: Loss = 0.094430
+2024-11-18 02:49:01,712 - INFO - Training Batch 2500: Loss = 0.114575
+2024-11-18 02:49:02,050 - INFO - Training Batch 2600: Loss = 0.093675
+2024-11-18 02:49:02,393 - INFO - Training Batch 2700: Loss = 0.081774
+2024-11-18 02:49:02,730 - INFO - Training Batch 2800: Loss = 0.129067
+2024-11-18 02:49:03,072 - INFO - Training Batch 2900: Loss = 0.098299
+2024-11-18 02:49:03,711 - INFO - Epoch 40/100
+2024-11-18 02:49:03,711 - INFO - Train Loss: 0.106165
+2024-11-18 02:49:03,711 - INFO - Validation Loss: 0.116865
+2024-11-18 02:49:03,725 - INFO - Training Batch 0: Loss = 0.109977
+2024-11-18 02:49:04,090 - INFO - Training Batch 100: Loss = 0.134440
+2024-11-18 02:49:04,449 - INFO - Training Batch 200: Loss = 0.100589
+2024-11-18 02:49:04,785 - INFO - Training Batch 300: Loss = 0.103274
+2024-11-18 02:49:05,136 - INFO - Training Batch 400: Loss = 0.106104
+2024-11-18 02:49:05,475 - INFO - Training Batch 500: Loss = 0.073725
+2024-11-18 02:49:05,828 - INFO - Training Batch 600: Loss = 0.088163
+2024-11-18 02:49:06,164 - INFO - Training Batch 700: Loss = 0.088691
+2024-11-18 02:49:06,508 - INFO - Training Batch 800: Loss = 0.095211
+2024-11-18 02:49:06,865 - INFO - Training Batch 900: Loss = 0.091366
+2024-11-18 02:49:07,216 - INFO - Training Batch 1000: Loss = 0.123996
+2024-11-18 02:49:07,555 - INFO - Training Batch 1100: Loss = 0.107566
+2024-11-18 02:49:07,893 - INFO - Training Batch 1200: Loss = 0.091953
+2024-11-18 02:49:08,233 - INFO - Training Batch 1300: Loss = 0.122712
+2024-11-18 02:49:08,580 - INFO - Training Batch 1400: Loss = 0.074128
+2024-11-18 02:49:08,931 - INFO - Training Batch 1500: Loss = 0.097366
+2024-11-18 02:49:09,278 - INFO - Training Batch 1600: Loss = 0.109894
+2024-11-18 02:49:09,635 - INFO - Training Batch 1700: Loss = 0.097397
+2024-11-18 02:49:09,960 - INFO - Training Batch 1800: Loss = 0.076027
+2024-11-18 02:49:10,290 - INFO - Training Batch 1900: Loss = 0.117119
+2024-11-18 02:49:10,630 - INFO - Training Batch 2000: Loss = 0.124545
+2024-11-18 02:49:10,978 - INFO - Training Batch 2100: Loss = 0.141051
+2024-11-18 02:49:11,315 - INFO - Training Batch 2200: Loss = 0.092151
+2024-11-18 02:49:11,659 - INFO - Training Batch 2300: Loss = 0.088886
+2024-11-18 02:49:12,002 - INFO - Training Batch 2400: Loss = 0.086220
+2024-11-18 02:49:12,342 - INFO - Training Batch 2500: Loss = 0.105861
+2024-11-18 02:49:12,684 - INFO - Training Batch 2600: Loss = 0.109987
+2024-11-18 02:49:13,054 - INFO - Training Batch 2700: Loss = 0.153274
+2024-11-18 02:49:13,450 - INFO - Training Batch 2800: Loss = 0.100355
+2024-11-18 02:49:13,845 - INFO - Training Batch 2900: Loss = 0.106578
+2024-11-18 02:49:14,478 - INFO - Epoch 41/100
+2024-11-18 02:49:14,478 - INFO - Train Loss: 0.105528
+2024-11-18 02:49:14,478 - INFO - Validation Loss: 0.116550
+2024-11-18 02:49:14,488 - INFO - Early stopping triggered
+2024-11-18 02:49:14,488 - INFO - Training completed

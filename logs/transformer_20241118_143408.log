@@ -1,0 +1,19 @@
+2024-11-18 14:34:08,313 - INFO - Starting training for TRANSFORMER model
+2024-11-18 14:34:08,313 - INFO - Using device: cuda
+2024-11-18 14:34:08,313 - INFO - Configuration: {'input_size': 1, 'dec_seq_len': 48, 'dim_val': 128, 'n_encoder_layers': 4, 'n_decoder_layers': 4, 'n_heads': 8, 'dropout_encoder': 0.2, 'dropout_decoder': 0.2, 'dropout_pos_enc': 0.1, 'dim_feedforward_encoder': 512, 'dim_feedforward_decoder': 512, 'num_predicted_features': 1, 'learning_rate': 0.0001, 'epochs': 100}
+2024-11-18 14:34:08,410 - INFO - Data split - Train: 83347, Val: 17860, Test: 17861
+2024-11-18 14:34:08,425 - INFO - DataLoaders created successfully
+2024-11-18 14:34:08,425 - INFO - Data loaders created successfully
+2024-11-18 14:34:08,616 - ERROR - Error during training: 'Transformer' object has no attribute '_init_parameters'
+2024-11-18 14:34:08,617 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "C:\Projects\GradProject\IoT-Based-Energy-Consumption-Prediction-Using-Transformers\train_models.py", line 128, in train_model
+    model = create_model(model_name, config)
+  File "C:\Projects\GradProject\IoT-Based-Energy-Consumption-Prediction-Using-Transformers\train_models.py", line 47, in create_model
+    return Transformer(
+  File "C:\Projects\GradProject\IoT-Based-Energy-Consumption-Prediction-Using-Transformers\models\attention\transformer.py", line 178, in __init__
+    self._init_parameters()
+  File "C:\Users\Pc\.conda\envs\energy_pred\lib\site-packages\torch\nn\modules\module.py", line 1729, in __getattr__
+    raise AttributeError(f"'{type(self).__name__}' object has no attribute '{name}'")
+AttributeError: 'Transformer' object has no attribute '_init_parameters'
+

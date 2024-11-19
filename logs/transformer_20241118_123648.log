@@ -1,0 +1,7 @@
+2024-11-18 12:36:48,470 - INFO - Starting training for transformer
+2024-11-18 12:36:48,470 - INFO - Training on device: cuda
+2024-11-18 12:36:48,945 - INFO - Training Batch 0: Loss = nan
+2024-11-18 12:37:19,650 - INFO - Training Batch 100: Loss = nan
+2024-11-18 12:37:50,507 - INFO - Training Batch 200: Loss = nan
+2024-11-18 12:38:21,153 - INFO - Training Batch 300: Loss = nan
+2024-11-18 12:38:52,349 - INFO - Training Batch 400: Loss = nan

@@ -1,0 +1,7 @@
+2024-11-18 14:49:48,265 - INFO - Starting transformer training
+2024-11-18 14:49:48,265 - INFO - Using device: cuda
+2024-11-18 14:49:48,265 - INFO - Configuration: {'input_size': 1, 'dec_seq_len': 48, 'dim_val': 128, 'n_encoder_layers': 4, 'n_decoder_layers': 4, 'n_heads': 8, 'dropout_encoder': 0.2, 'dropout_decoder': 0.2, 'dropout_pos_enc': 0.1, 'dim_feedforward_encoder': 512, 'dim_feedforward_decoder': 512, 'num_predicted_features': 1, 'learning_rate': 0.0001, 'epochs': 100}
+2024-11-18 14:49:48,383 - INFO - Data loaders created successfully
+2024-11-18 14:49:49,044 - INFO - Model created successfully: Transformer
+2024-11-18 14:49:49,058 - INFO - Number of parameters: 1873281
+2024-11-18 14:49:49,690 - INFO - Starting training...

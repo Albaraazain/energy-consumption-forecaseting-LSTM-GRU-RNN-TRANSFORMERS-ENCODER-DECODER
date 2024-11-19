@@ -1,0 +1,20 @@
+2024-11-18 12:31:24,475 - INFO - Starting training for transformer
+2024-11-18 12:31:24,476 - INFO - Training on device: cuda
+2024-11-18 12:31:24,602 - INFO - Training Batch 0: Loss = nan
+2024-11-18 12:31:25,379 - INFO - Training Batch 100: Loss = nan
+2024-11-18 12:31:26,247 - INFO - Training Batch 200: Loss = nan
+2024-11-18 12:31:26,992 - INFO - Training Batch 300: Loss = nan
+2024-11-18 12:31:27,785 - INFO - Training Batch 400: Loss = nan
+2024-11-18 12:31:28,513 - INFO - Training Batch 500: Loss = nan
+2024-11-18 12:31:29,308 - INFO - Training Batch 600: Loss = nan
+2024-11-18 12:31:30,058 - INFO - Training Batch 700: Loss = nan
+2024-11-18 12:31:30,783 - INFO - Training Batch 800: Loss = nan
+2024-11-18 12:31:31,531 - INFO - Training Batch 900: Loss = nan
+2024-11-18 12:31:32,276 - INFO - Training Batch 1000: Loss = nan
+2024-11-18 12:31:33,020 - INFO - Training Batch 1100: Loss = nan
+2024-11-18 12:31:33,785 - INFO - Training Batch 1200: Loss = nan
+2024-11-18 12:31:34,527 - INFO - Training Batch 1300: Loss = nan
+2024-11-18 12:31:35,282 - INFO - Training Batch 1400: Loss = nan
+2024-11-18 12:31:36,059 - INFO - Training Batch 1500: Loss = nan
+2024-11-18 12:31:36,820 - INFO - Training Batch 1600: Loss = nan
+2024-11-18 12:31:37,580 - INFO - Training Batch 1700: Loss = nan

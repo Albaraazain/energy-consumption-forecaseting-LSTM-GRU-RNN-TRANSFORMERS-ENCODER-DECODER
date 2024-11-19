@@ -1,0 +1,32 @@
+2024-11-18 02:39:27,841 - INFO - Starting training for cnn
+2024-11-18 02:39:27,841 - INFO - Training on device: cuda
+2024-11-18 02:39:28,002 - INFO - Training Batch 0: Loss = 5.769862
+2024-11-18 02:39:28,359 - INFO - Training Batch 100: Loss = 2.355999
+2024-11-18 02:39:28,746 - INFO - Training Batch 200: Loss = 1.544691
+2024-11-18 02:39:29,116 - INFO - Training Batch 300: Loss = 1.316580
+2024-11-18 02:39:29,484 - INFO - Training Batch 400: Loss = 1.001455
+2024-11-18 02:39:29,855 - INFO - Training Batch 500: Loss = 1.377088
+2024-11-18 02:39:30,233 - INFO - Training Batch 600: Loss = 1.008936
+2024-11-18 02:39:30,597 - INFO - Training Batch 700: Loss = 1.050998
+2024-11-18 02:39:30,977 - INFO - Training Batch 800: Loss = 1.078155
+2024-11-18 02:39:31,338 - INFO - Training Batch 900: Loss = 0.953763
+2024-11-18 02:39:31,820 - INFO - Training Batch 1000: Loss = 0.980034
+2024-11-18 02:39:32,182 - INFO - Training Batch 1100: Loss = 0.815739
+2024-11-18 02:39:32,544 - INFO - Training Batch 1200: Loss = 0.876234
+2024-11-18 02:39:32,903 - INFO - Training Batch 1300: Loss = 0.777621
+2024-11-18 02:39:33,267 - INFO - Training Batch 1400: Loss = 0.884385
+2024-11-18 02:39:33,622 - INFO - Training Batch 1500: Loss = 0.655598
+2024-11-18 02:39:33,987 - INFO - Training Batch 1600: Loss = 0.856545
+2024-11-18 02:39:34,345 - INFO - Training Batch 1700: Loss = 0.668268
+2024-11-18 02:39:34,699 - INFO - Training Batch 1800: Loss = 0.682993
+2024-11-18 02:39:35,067 - INFO - Training Batch 1900: Loss = 0.636390
+2024-11-18 02:39:35,445 - INFO - Training Batch 2000: Loss = 0.713901
+2024-11-18 02:39:35,864 - INFO - Training Batch 2100: Loss = 0.563903
+2024-11-18 02:39:36,292 - INFO - Training Batch 2200: Loss = 0.673178
+2024-11-18 02:39:36,634 - INFO - Training Batch 2300: Loss = 0.595259
+2024-11-18 02:39:36,999 - INFO - Training Batch 2400: Loss = 0.527070
+2024-11-18 02:39:37,344 - INFO - Training Batch 2500: Loss = 0.689888
+2024-11-18 02:39:37,720 - INFO - Training Batch 2600: Loss = 0.640302
+2024-11-18 02:39:38,083 - INFO - Training Batch 2700: Loss = 0.580084
+2024-11-18 02:39:38,413 - INFO - Training Batch 2800: Loss = 0.439117
+2024-11-18 02:39:38,765 - INFO - Training Batch 2900: Loss = 0.617952

@@ -1,0 +1,10 @@
+2024-11-18 15:41:11,838 - INFO - Starting transformer training
+2024-11-18 15:41:11,838 - INFO - Using device: cuda
+2024-11-18 15:41:11,838 - INFO - Configuration: {'input_size': 1, 'dec_seq_len': 48, 'dim_val': 128, 'n_encoder_layers': 4, 'n_decoder_layers': 4, 'n_heads': 8, 'dropout_encoder': 0.2, 'dropout_decoder': 0.2, 'dropout_pos_enc': 0.1, 'dim_feedforward_encoder': 512, 'dim_feedforward_decoder': 512, 'num_predicted_features': 1, 'learning_rate': 0.0001, 'epochs': 100}
+2024-11-18 15:41:11,935 - INFO - Data loaders created successfully
+2024-11-18 15:41:12,454 - INFO - Model created successfully: Transformer
+2024-11-18 15:41:12,466 - INFO - Number of parameters: 1851777
+2024-11-18 15:41:13,151 - INFO - Starting training...
+2024-11-18 16:22:54,322 - INFO - Training completed
+2024-11-18 16:22:54,322 - INFO - Evaluating model...
+2024-11-18 16:22:58,464 - ERROR - Error during training: Object of type float32 is not JSON serializable
